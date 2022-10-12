@@ -38,7 +38,6 @@ OrangePi 3 LTS для UART подключения использует овер�
 В printer.cfg  ищем раздел mcu и меняем на такой вид
 ```bash
 [mcu]
-#serial: /dev/serial/by-id/usb-Klipper_stm32f407xx_12345-if00
 serial: /dev/ttyS3
 restart_method: command
 ```
