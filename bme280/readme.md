@@ -23,6 +23,16 @@
 на orange pi 3lts подключим их в 4 6 5 3 разъем соответсвенно
 
 ![картинка](pinout.jpg)
+ это было самое легкое. 
+ <h3>Настройка Host</h3>
+ Для использования orange pi как MCU с целью получения доступа к его шинам SPI, i2c и просто к GPIO, необходимо установить и запустить исполняемый модуль Klipper и на нем.
 
+Для этого необходимо чтобы исполняемая часть MCU на orange pi запускалась раньше, чем загрузится Klipper, для этого выполняем следующие действия:
 
+<yaml>
+cd ~/klipper/
 
+sudo cp "./scripts/klipper-mcu-start.sh" /etc/init.d/klipper_mcu
+
+sudo update-rc.d klipper_mcu default
+</yaml>
