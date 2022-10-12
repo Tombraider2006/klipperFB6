@@ -29,10 +29,35 @@
 
 Для этого необходимо чтобы исполняемая часть MCU на orange pi запускалась раньше, чем загрузится Klipper, для этого выполняем следующие действия:
 
-<yaml>
-cd ~/klipper/
+<shell>cd ~/klipper/
 
 sudo cp "./scripts/klipper-mcu-start.sh" /etc/init.d/klipper_mcu
 
-sudo update-rc.d klipper_mcu default
-</yaml>
+sudo update-rc.d klipper_mcu default</shell>
+
+Действиями выше, был создан новый элемент автозапуска, и добавлен в скрипты загрузки.
+
+Далее необходимо создать прошивку для Orange PI контроллера, для этого выполняем:
+
+<code>cd ~/klipper/
+
+make menuconfig</code>
+
+В меню конфигурации, следует выбрать архитектуру процессора как Linux process, нажимаем Q и сохраняем изменения.
+Теперь установим исполняемую часть на Orange PI:
+
+<code>make
+
+sudo service klipper stop
+
+make flash
+
+sudo service klipper start</code>
+
+
+Теперь необходимо внести изменения в printer.cfg, чтобы Klipper смог получить доступ к MCU Orange PI
+
+<code>[mcu host]
+
+serial: /tmp/klipper_host_mcu</code>
+После выполнения этих действий и перезагрузки Orange PI вы получите доступ к шинам и GPIO вашего одноплатного компьютера.
