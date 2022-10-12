@@ -95,3 +95,4 @@ gcode:
             sensor.humidity))}```
 ```
 ![картинка](final.jpg)
+настройка i2c основана на этом мануале https://devdotnet.org/post/rabota-s-gpio-v-linux-na-primere-banana-pi-bpi-m64-chast-5-device-tree-overlays-shina-i2c-podkyuchenie-datchikov-bosh-bmx/
