@@ -43,3 +43,4 @@ Recv: // adxl345 values (x, y, z): 470.719200, 941.438400, 9728.196800
 
 ![tool](tool.jpg)
 
+сам акселерометр брал тут https://aliexpress.ru/item/1005001621867550.html
