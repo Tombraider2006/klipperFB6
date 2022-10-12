@@ -1,7 +1,17 @@
-тут мой конфиг клиппера на flying bear ghost 6 
+ <h1>klipper_config</h1>
+в папке конфиг клиппера на flying bear ghost 6 
 по этому конфигу каждый день работает принтер. так что 100% рабочий, но все мы люди и иногда бывают ошибки.  
 стараюсь оперативно исправлять и дополнять по мере освоения
-
+ <h2>adxl345_2_mcu</h2>
+ в папке adxl345_2_mcu описан способ подключения акселерометра к плате принтера.
+ 
+  <h2>drivers_uart</h2>
+  в папке drivers_uart краткий мануал по распайке драйверов по юарт для платы MKS Robin Nan v4 3.1
+  
+ <h2>mcu_uart</h2>
+ наглядно о подключении orange pi 3 lts к плате принтера. 
+ 
+ <h2>остальное</h2>
 клипперскрин подключен по https://sergey1560.github.io/fb4s_howto/mks_ts35/ этому мануалу.
 
 клипперскрин если у вас raspberry https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md или https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md
