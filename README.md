@@ -19,8 +19,11 @@
 
 клипперскрин если у вас raspberry https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md или https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md
 
-глюки spi приподключении акселерометра можно устранить по этому мануалу https://github.com/orangepi-xunlong/wiringOP (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2  
+глюки spi при подключении акселерометра можно устранить по этому мануалу https://github.com/orangepi-xunlong/wiringOP (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2  
 добавил схему подключения акселерометра непосредственно к плате принтера смотри раздел adxl_2_mcu
+
+Автоперезапуск сервиса klipper после включения принтера
+https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/
 
 https://flyingbear.info/firmware/klipper/klipper_config - полезный ресурс от 5 мишки, там про то как настройть например вебкамеру.  и не только. многое подойдет на 6 мишку если не забывать что у нас разные платы)
 
