@@ -93,3 +93,4 @@ gcode:
             sensor.pressure,
             sensor.humidity))}```
 ```
+![картинка](final.jpg)
