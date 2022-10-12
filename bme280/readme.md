@@ -24,6 +24,19 @@
 
 ![картинка](pinout.jpg)
  это было самое легкое. 
+
+<h3>Натройка шины I2c</h3>
+Запустим утилиту конфигурирования платы:  <b>armbian-config</b>. Перейдем по меню: System > Hardware, и включим <b>I2C0</b> после сохраняем, перегружаемся
+(картинка)
+
+проверяем что работает
+
+```bash
+sudo i2cdetect -y 0
+```
+Шина I2C работает и датчик BME280 по адресу 0x76 найден 
+(картинка map_i2c0.jpg)
+
  <h3>Настройка Host</h3>
  Для использования orange pi как MCU с целью получения доступа к его шинам SPI, i2c и просто к GPIO, необходимо установить и запустить исполняемый модуль Klipper и на нем.
 
@@ -60,3 +73,23 @@ sudo service klipper start
 serial: /tmp/klipper_host_mcu
 ```
 После выполнения этих действий и перезагрузки Orange PI вы получите доступ к шинам и GPIO вашего одноплатного компьютера.
+
+чтобы датчик отображался добавим его в конфиг и добавим маленький макрос на будущее.
+```cfg
+[temperature_sensor Камера_принтера]
+sensor_type: BME280
+i2c_address: 118
+i2c_mcu: host
+i2c_bus: i2c.0
+
+[gcode_macro QUERY_BME280]
+gcode:
+    {% set sensor = printer["bme280 Камера_принтера"] %}
+    {action_respond_info(
+        "Температура: %.2f C\n"
+        "Давление: %.2f Миллибар\n"
+        "Влажность: %.2f%%" % (
+            sensor.temperature,
+            sensor.pressure,
+            sensor.humidity))}```
+```
