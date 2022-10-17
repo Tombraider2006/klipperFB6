@@ -17,7 +17,7 @@
   
   [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)
 
- наглядно о подключении orange pi 3 lts к плате принтера. 
+ наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
  
   [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
 
