@@ -53,13 +53,13 @@
 
 необходимо продумать как и где у вас будут стоять ленты чтобы паравозик сигнального провода не болтался в воздухе и по максимуму был коротким. 
 
-у меня порядок такой от платы к верхнему штатному месту, от него вниз к боковой стенке от первой планке ко второй. был еще конец который уходил в правый угол но мне не понравилось как он светит и я его убрал. возмможно верну позже.
+У меня порядок такой: от платы к верхнему штатному месту, от него вниз к боковой стенке, от первой планке ко второй. был еще конец который уходил в правый угол но мне не понравилось как он светит и я его убрал. возмможно верну позже.
 
 ![фото косы](kosa.jpg)
 ![фото косы2](kosa1.jpg)
 
 
- питание к енте может походить с любой стороны, хоть посреди ленты, а вот сигнальный провод строго паравозиком по стрелкам, у меня получилось запихать в один корпус 25 светодиодов и 27 на место штатной ленты. площадку при пайке можно легко оторвать и поэтому на одной из лент у меня 24 светодиода)
+ Питание к ленте может походить с любой стороны, хоть посреди ленты, а вот сигнальный провод строго паравозиком по стрелкам, у меня получилось запихать в один корпус 25 светодиодов и 27 на место штатной ленты. площадку при пайке можно легко оторвать и поэтому на одной из лент у меня 24 светодиода)
  
  ![итог](table.jpg)
 
@@ -69,7 +69,7 @@
 
 подключаем их первой ленте и там же подключаем питание от блока питания.  дальше тянуть  землю от платы не надо.  если вы  соеденили GND платы и GND блока питания ранее то достаточно PE6
 
-дальше работа паяльником клеем и укладка проводов, уверен, у вас получится красивиее чем у меня)
+Дальше работа паяльником, клеем и укладка проводов, уверен, у вас получится красивиее чем у меня)
 
 **Конфигурирование** 
 
@@ -124,7 +124,7 @@ gcode:
         SET_LED LED=my_neopixel RED=0.5 GREEN=0.0 BLUE=0.0 INDEX=25 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.5 GREEN=0.0 BLUE=0.0 INDEX=26 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.5 GREEN=0.0 BLUE=0.0 INDEX=27 TRANSMIT=1
-	G4 P250                       ; sleep 250ms
+	G4 P250                       ; пауза 250ms
         SET_LED LED=my_neopixel RED=0.5 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.5 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.5 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
@@ -153,7 +153,7 @@ gcode:
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=26 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=27 TRANSMIT=1
       
-	G4 P250                       ; sleep 250ms
+	G4 P250                       ; пауза 250ms
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=1 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=2 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=3 TRANSMIT=0
@@ -182,7 +182,7 @@ gcode:
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.5 INDEX=26 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.5 INDEX=27 TRANSMIT=1
 
-	G4 P250                       ; sleep 250ms
+	G4 P250                       ; пауза 250ms
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=1 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=2 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.5 BLUE=0.0 INDEX=3 TRANSMIT=0
@@ -211,7 +211,7 @@ gcode:
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.5 INDEX=26 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.5 INDEX=27 TRANSMIT=1
 
-	G4 P250                       ; sleep 250ms
+	G4 P250                       ; пауза 250ms
     {% endfor %}
     SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3
 ```
