@@ -30,6 +30,9 @@
 [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
 
   В этой папке вариант размещения оборудования внутри принтера. там же необходимые модели для этого.
+ 
+[**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)
+Подключение адресной светодиодной ленты 
   
  <h2>остальное</h2>
  
