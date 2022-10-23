@@ -24,6 +24,6 @@ Meanwell LRS350 на 24 вольта и 350 ватт. Запас по мощно
 
 ![общий вид](6.jpg)
 
-[https://aliexpress.ru/item/1005003337307259.html](https://aliexpress.ru/item/1005003337307259.html) блок питания 24вольта 350 ватт
+[блок питания 24вольта 350 ватт](http://alii.pub/6hx4bs) 
 
-[https://aliexpress.ru/item/33042313383.html](https://aliexpress.ru/item/33042313383.html) блок питания 5 вольт 30ватт (можно брать с 15 до 30 ватт)
+[блок питания 5 вольт 30ватт "можно брать с 15 до 30 ватт"](http://alii.pub/6hx4dq) 
