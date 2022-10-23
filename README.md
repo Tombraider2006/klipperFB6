@@ -37,24 +37,27 @@
   
  <h2>остальное</h2>
  
-клипперскрин подключен по https://sergey1560.github.io/fb4s_howto/mks_ts35/ этому мануалу.
+клипперскрин подключен по [этому мануалу](https://sergey1560.github.io/fb4s_howto/mks_ts35/) в родном мануале совсем невнятная схема подключения [тут](TS35%20Klipper.pdf) тоже самое но чуть понятнее
 
-клипперскрин если у вас raspberry https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md или https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md
+клипперскрин если у вас raspberry [тут](https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md) или [тут](https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md)
 
-глюки spi при подключении акселерометра можно устранить по этому мануалу https://github.com/orangepi-xunlong/wiringOP (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2  
-добавил схему подключения акселерометра непосредственно к плате принтера смотри раздел adxl_2_mcu
+глюки spi при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2  
 
-Автоперезапуск сервиса klipper после включения принтера
-https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/
+Добавил схему подключения акселерометра непосредственно к плате принтера смотри раздел [adxl_2_mcu](adxl345_2_mcu/readme.md)
 
-https://flyingbear.info/firmware/klipper/klipper_config - полезный ресурс от 5 мишки, там про то как настройть например вебкамеру.  и не только. многое подойдет на 6 мишку если не забывать что у нас разные платы)
+[Автоперезапуск сервиса klipper после включения принтера](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
-https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001 распиновка платы - да она под сьемные драйвера в остальном сопадает с мишко6. использрвать когда надо узнать какой пин в клиппере написать.
+[Flyingbear.info](https://flyingbear.info/firmware/klipper/klipper_config)- полезный ресурс от 5 мишки, там про то как настроить например вебкамеру и не только. многое подойдет на 6 мишку если не забывать что у нас разные платы)
 
-https://klipper.wiki/ru/home/initial/peripheral хорошее wiki по клипперу. когда мне лень писать и я пишу что посмотрите сами, лезьте на этот ресурс вероятнее найдете подробную инструкцию 
-https://github.com/nlef/moonraker-telegram-bot/wiki wiki по телеграм боту. там же как установить.
+ [распиновка платы](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использрвать когда надо узнать какой пин в клиппере написать.
 
-https://t.me/fbg5_waiters телеграм чат где есть многое, если не всё для владельца flying bear ghost 6  он же просто мишка 6. 
+ [хорошее wiki по клипперу](https://klipper.wiki/ru/home/initial/peripheral)
+ 
+  когда мне лень писать и я пишу что посмотрите сами, лезьте на этот ресурс вероятнее найдете подробную инструкцию
+
+ [wiki по телеграм боту](https://github.com/nlef/moonraker-telegram-bot/wiki). там же как установить.
+
+ [телеграм чат FB6 владельцев и Reborn2](https://t.me/fbg5_waiters) где есть многое, если не всё для владельца flying bear ghost 6  он же просто мишка 6. 
 
 
-ставьте звездочку проекту, так будет проще находить владельцам принтера нужную информацию
+Ставьте звездочку проекту, так будет проще находить владельцам принтера нужную информацию
