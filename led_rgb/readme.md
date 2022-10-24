@@ -235,3 +235,152 @@ gcode:
  ![вид](fly_panda.jpg)
  
  ![видео](party.gif)
+
+ну и еще макрос бонусом. полицейская сирена, сделана на 12 светодиодов но никто не мешает расширить на ваше количество
+```g-code
+[gcode_macro POLICE_Time]
+gcode:
+    {% for flashes in range(params.COUNT|default(30)|int) %}
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+    
+        G4 P150                       ; sleep 150ms   
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+    
+        G4 P150                       ; sleep 150ms   
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+    
+        G4 P150                       ; sleep 150ms  
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+
+G4 P150                       ; sleep 150ms   
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+
+        G4 P150                       ; sleep 150ms  
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=12 TRANSMIT=1
+
+        G4 P150                       ; sleep 150ms  
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+
+        G4 P150                       ; sleep 150ms  
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=12 TRANSMIT=1
+
+G4 P150                       ; sleep 150ms  
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
+
+        G4 P150                       ; sleep 150ms  
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=4 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=5 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=6 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.3 GREEN=0.3 BLUE=0.3 INDEX=7 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=8 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=9 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=10 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=11 TRANSMIT=0
+        SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=12 TRANSMIT=1
+
+        G4 P150                       ; sleep 150ms
+     {% endfor %} 
+       SET_LED LED=my_neopixel RED=0.5 GREEN=0.5 BLUE=0.5
+```
