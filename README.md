@@ -1,6 +1,8 @@
  [**Настройка Klipper для 3D-принтера FlyingBear Ghost 6 с подключением по USB**](https://github.com/flyingbear-reborn2/wiki/blob/main/FBG6/klipper.md) 
  мануал  для совсем новичков, написан при моем содействии.
  
+
+[**Что Купить**](what_2_buy/readme.md) всё что надо для того, чтобы принтер  вас любил.
  
  [**klipper_config**](https://github.com/Tombraider2006/klipperFB6/tree/main/klipper_config)
  
