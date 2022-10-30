@@ -4,25 +4,25 @@ Meanwell LRS350 на 24 вольта и 350 ватт. Запас по мощно
 сверлить пришлось только крепление для блока питания и отверстие чтобы пропустить провода от него к плате и от разьема питания сзади до самого блока питания.  
 для крепления использовались винты м3 с гайками.
 
-Для ножек принтера использвалась [эта модель](./assets/stl/placement/stand.stl)
+Для ножек принтера использвалась [эта модель](/klipperFB6/assets/stl/placement/stand.stl)
 
-Основание orange pi было закреплено через  [эту модель](./assets/stl/placement/case-bottom.stl)
+Основание orange pi было закреплено через  [эту модель](/klipperFB6/assets/stl/placement/case-bottom.stl)
 
 Для того чтобы снизить шум от принтера решил убрать вентилятор обдува с принтера и вместо родной панели поставил [эту модель](Mean_Well_PSU_cover_-_fanless.stl)
 
-![1](./assets/images/placement/1.jpg)
+![1](/klipperFB6/assets/images/placement/1.jpg)
 
-![2](./assets/images/placement/2.jpg)
+![2](/klipperFB6/assets/images/placement/2.jpg)
 
-![5](./assets/images/placement/5.jpg)
+![5](/klipperFB6/assets/images/placement/5.jpg)
 
-![3](./assets/images/placement/3.jpg)
+![3](/klipperFB6/assets/images/placement/3.jpg)
 
-![4](./assets/images/placement/4.jpg)
+![4](/klipperFB6/assets/images/placement/4.jpg)
 
 После всех работ общий вид практически не изменился, а наполнение увеличилось.
 
-![общий вид](./assets/images/placement/6.jpg)
+![общий вид](/klipperFB6/assets/images/placement/6.jpg)
 
 [блок питания 24вольта 350 ватт](http://alii.pub/6hx4bs) 
 

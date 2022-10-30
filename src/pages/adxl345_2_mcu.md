@@ -2,17 +2,17 @@
 
 с одной стороны видим разьем под вайфай модуль на плате принтера, с другой акселерометр
 
-![adxl345](./assets/images/adxl345_2_mcu/adxl345.jpg)
+![adxl345](/klipperFB6/assets/images/adxl345_2_mcu/adxl345.jpg)
 
-разместить можно на фидере используя данное [крепление](./assets/stl/adxl345_2_mcu/adxl.stl)  или это [крепление](./assets/stl/adxl345_2_mcu/adxl2.stl)  
+разместить можно на фидере используя данное [крепление](/klipperFB6/assets/stl/adxl345_2_mcu/adxl.stl)  или это [крепление](/klipperFB6/assets/stl/adxl345_2_mcu/adxl2.stl)  
 
 для установки рекомендую схему как на фото
 
-![tool](./assets/images/adxl345_2_mcu/tool.jpg)
+![tool](/klipperFB6/assets/images/adxl345_2_mcu/tool.jpg)
 
 или  вариант 2
 
-![вариант2](./assets/images/adxl345_2_mcu/v2_1.jpg)
+![вариант2](/klipperFB6/assets/images/adxl345_2_mcu/v2_1.jpg)
 
 в ```printer.cfg``` добавить
 ```cfg
