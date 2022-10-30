@@ -7,7 +7,7 @@ sudo armbian-config
 ```
  раздел system подраздел hardware-  включаем uart3 
 
-![1](arm_conf.jpg)
+![1](./assets/images/mcu_uart/arm_conf.jpg)
 
 переделываем прошивку для uart подключения
 
@@ -24,7 +24,7 @@ Bootloader offset - 48KiB bootloader
 
 Comunication Interface - Serial (on USART1 PA10/PA9)
 
-![1](menuconfig.jpg)
+![1](./assets/images/mcu_uart/menuconfig.jpg)
 
 Нажимаем Q, сохраняя внесенные изменения и компилируем прошивку:
 
@@ -42,5 +42,6 @@ serial: /dev/ttyS3
 restart_method: command
 ```
 ниже расположены картинки как\куда именно втыкать провода.
-![1](pin_orange.jpg)
-![2](pin_mcu.jpg)
+
+![1](./assets/images/mcu_uart/pin_orange.jpg)
+![2](./assets/images/mcu_uart/pin_mcu.jpg)

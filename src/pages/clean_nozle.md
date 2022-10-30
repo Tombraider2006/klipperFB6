@@ -1,12 +1,14 @@
 перед началом печати можно немножко почистить сопло от вытекающего филамента.
 
-![shetka_3d](shetka_3d.jpg)
+![shetka_3d](./assets/images/clean_nozle/shetka_3d.jpg)
+
 распечатываем 
-[держатель щетки](shetka_3d.STL)
+
+[держатель щетки](./assets/stl/clean_nozle/shetka_3d.STL)
 
 монтируем:
 
-![монтаж](assembl.jpg)
+![монтаж](./assets/images/clean_nozle/assembl.jpg)
 
 
 

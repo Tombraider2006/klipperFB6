@@ -2,56 +2,58 @@
  мануал  для совсем новичков, написан при моем содействии.
  
 
-[**Что Купить**](what_2_buy/readme.md) всё что надо для того, чтобы принтер  вас любил.
+[**Что Купить**](./what_2_buy) всё что надо для того, чтобы принтер  вас любил.
  
- [**klipper_config**](https://github.com/Tombraider2006/klipperFB6/tree/main/klipper_config)
+ [**klipper_config**](./klipper_config)
  
  в папке конфиг клиппера на flying bear ghost 6 
   подходит для стокового принтера без доработок, также есть закомментированные разделы небольших доработок. в комментариях файла config.cfg  есть какие то пояснения. читайте внимательно.
-*не нужно бездумно копировать всю папку, вам нужен только [конфиг](klipper_config/printer.cfg) остальные файлы просто для сравнения со своими когда вам это будет нужно.*
+*не нужно бездумно копировать всю папку, вам нужен только [конфиг](./assets/cfg/klipper_config/printer.cfg) остальные файлы просто для сравнения со своими когда вам это будет нужно.*
 
-[**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu)
+[**adxl345_2_mcu**](./adxl345_2_mcu)
 
  в папке adxl345_2_mcu описан способ подключения акселерометра к плате принтера.
  
- [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
+ [**drivers_uart**](./drivers_uart)
 
   в папке drivers_uart краткий мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1
   
-  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)
+  [**mcu_uart**](./mcu_uart)
 
  наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
  
-  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
+  [**bme280**](./bme280)
 
   Подключение датчика температуры BME280
   
-   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
+   [**clean_nozle**](./clean_nozle)
 
   монтаж щетки очистки сопла, модель, макрос.
   
-[**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
+[**placement**](./placement)
 
   В этой папке вариант размещения оборудования внутри принтера. там же необходимые модели для этого.
  
-[**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)
+[**led_rgb**](./led_rgb)
 
 Подключение адресной светодиодной ленты к плате принтера
   
- *<h2>остальное</h2>*
+## Прочее
 
 **timelapse здорового человека** 
 
 многие пользуются функцией таймлапсов которые предоставляет телеграм бот но он ограничен в функионале и не позволяет делать красиво.
 если хотите получить действительно хорошие видео рекомендую [вот этот плагин](https://github.com/mainsail-crew/moonraker-timelapse) есть отвод головы на время сьемки кадра, переменный целевой fps и многое другое. посмотрите страничку авторов на гитхабе - не пожалеете. 
 
-**клипперскрин** подключен по [этому мануалу](https://sergey1560.github.io/fb4s_howto/mks_ts35/) в родном мануале совсем невнятная схема подключения [тут](TS35%20Klipper.pdf) тоже самое но чуть понятнее
+**клипперскрин** подключен по [этому мануалу](https://sergey1560.github.io/fb4s_howto/mks_ts35/) в родном мануале совсем невнятная схема подключения [тут](./assets/pdf/TS35%20Klipper.pdf) тоже самое но чуть понятнее
 
 **клипперскрин** если у вас raspberry [тут](https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md) или [тут](https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md)
 
 **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2  
 
-Добавил схему подключения акселерометра непосредственно к плате принтера смотри раздел [adxl_2_mcu](adxl345_2_mcu/readme.md)
+Добавил схему подключения акселерометра непосредственно к плате принтера смотри раздел [adxl_2_mcu](./adxl345_2_mcu)
+
+## Полезные ссылки
 
 [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
@@ -68,7 +70,11 @@
  [**телеграм чат FB6 владельцев и Reborn2**](https://t.me/fbg5_waiters) где есть многое, если не всё для владельца flying bear ghost 6  он же просто мишка 6. 
 
 
-`Ставьте звездочку проекту, так будет проще находить владельцам принтера нужную информацию`
+## Донат
 
-[Если вы считаете мой проект хорошим вы можете помочь денежкой тут.деньги поступят на карту дочери](https://pay.cloudtips.ru/p/f84bf0b2)
-![куаркод](qrCode.png) 
+Если вы считаете что мой проект вам помог, то можете поддержать меня тут:
+[Деньги поступят на карту дочери](https://pay.cloudtips.ru/p/f84bf0b2)
+
+![куаркод](./assets/images/donate.png) 
+
+`Ставьте звездочку проекту, так будет проще находить владельцам принтера нужную информацию`
