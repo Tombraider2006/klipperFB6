@@ -1,3 +1,7 @@
+---
+layout: ../layouts/Base.astro
+---
+
 мой конфиг в процессе доработки на flying bear ghost 6.  
 читайте комментарии в файле!!! printer.cfg 
 

@@ -1,0 +1,72 @@
+---
+
+---
+
+<head>
+    <link href="https://pascalkleindienst.github.io/consola.css/bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://pascalkleindienst.github.io/consola.css/bower_components/consola.css/css/consola.min.css" rel="stylesheet" />
+    <link href="https://pascalkleindienst.github.io/consola.css/css/hljs.atom-one-dark.css" rel="stylesheet" />
+    <link href="https://pascalkleindienst.github.io/consola.css/css/all.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+    <link href="/klipperFB6/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid hero bg-white">
+        <h1>
+            <a href="https://pascalkleindienst.github.io/consola.css">klipperFB6</a>
+            <br>
+            <small class="text-muted h3">Ваш небольшой помощник</small>
+        </h1>
+    </header>
+    <div class="container documentation">
+        <div class="row">
+            <div class="sidebar col-sm-4">
+                <ul class="list-unstyled">
+                    <li>
+                        <span class="section-title">Основной</span>
+                        <ul class="list-unstyled">
+                            <li class="">
+                                <a href="/klipperFB6/">Главная страница</a>
+                            </li>
+                            <li class="">
+                                <a href="/klipperFB6/todo">Планы</a>
+                            </li>
+                            <li class="">
+                                <a href="/klipperFB6/donate">Донат</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="section-title">Полезные ссылки</span>
+                        <ul class="list-unstyled">
+                            <li class="">
+                                <a target="_blank" href="https://github.com/flyingbear-reborn2/wiki/blob/main/FBG6/klipper.md">Настройка Klipper FB6 (USB)</a>
+                            </li>
+                            <li class="">
+                                <a target="_blank" href="https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001">Распиновка платы</a>
+                            </li>
+                            <li class="">
+                                <a target="_blank" href="https://flyingbear.info/firmware/klipper/klipper_config">Flyingbear.info</a>
+                            </li>
+                            <li class="">
+                                <a target="_blank" href="https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/">Автоперезапуск klipper</a>
+                            </li>
+                            <li class="">
+                                <a target="_blank" href="https://klipper.wiki/ru/home/initial/peripheral">Wiki Klipper</a>
+                            </li>
+                            <li class="">
+                                <a target="_blank" href="https://github.com/nlef/moonraker-telegram-bot/wiki">Wiki Telegram Bot</a>
+                            </li>
+                            <li class="">
+                                <a target="_blank" href="https://t.me/fbg5_waiters">Telegram Чат (FB6/Reborn 2)</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <article class="col-sm-8">
+                <slot />
+            </article>
+        </div>
+    </div>
+</body>

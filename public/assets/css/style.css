@@ -1,0 +1,8 @@
+body {
+    font-family: 'Roboto Mono';
+}
+img {
+    margin: 0px auto;
+    display: block;
+    max-width: 100%;
+}

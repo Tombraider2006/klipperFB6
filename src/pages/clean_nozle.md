@@ -1,3 +1,7 @@
+---
+layout: ../layouts/Base.astro
+---
+
 перед началом печати можно немножко почистить сопло от вытекающего филамента.
 
 ![shetka_3d](/klipperFB6/assets/images/clean_nozle/shetka_3d.jpg)

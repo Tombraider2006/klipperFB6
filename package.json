@@ -11,6 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.6.0"
+    "astro": "^1.6.0",
+    "consola.css": "^0.5.2"
   }
 }
