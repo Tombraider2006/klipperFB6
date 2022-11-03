@@ -37,7 +37,10 @@
 [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)
 
 Подключение адресной светодиодной ленты к плате принтера
-  
+
+[**biqu_h2**](karas/readme.md)
+Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6
+
  *<h2>остальное</h2>*
 
 **timelapse здорового человека** 
