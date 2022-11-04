@@ -242,7 +242,7 @@ gcode:
 ```g-code
 [gcode_macro POLICE_Time]
 gcode:
-    {% for flashes in range(params.COUNT|default(30)|int) %}
+    {% for flashes in range(params.COUNT|default(20)|int) %}
         SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
         SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
         SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
@@ -298,7 +298,7 @@ gcode:
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=11 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=12 TRANSMIT=1
 
-G4 P150                       ; sleep 150ms   
+        G4 P150                       ; sleep 150ms   
         SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
         SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
         SET_LED LED=my_neopixel RED=1.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
@@ -354,7 +354,7 @@ G4 P150                       ; sleep 150ms
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=11 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=1.0 INDEX=12 TRANSMIT=1
 
-G4 P150                       ; sleep 150ms  
+        G4 P150                       ; sleep 150ms  
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=1 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=2 TRANSMIT=0
         SET_LED LED=my_neopixel RED=0.0 GREEN=0.0 BLUE=0.0 INDEX=3 TRANSMIT=0
