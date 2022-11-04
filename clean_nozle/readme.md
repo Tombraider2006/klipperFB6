@@ -13,7 +13,7 @@
 В ```printer.cfg``` добавляем:
 
 
- ```bash
+ ```gcode
  [gcode_macro Clean_nozle]
 gcode:
     G1 X1 Y20 F10000 
