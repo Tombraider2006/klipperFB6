@@ -74,6 +74,8 @@
 
  [**телеграм чат FB6 владельцев и Reborn2**](https://t.me/fbg5_waiters) где есть многое, если не всё для владельца flying bear ghost 6  он же просто мишка 6. 
 
+[**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
+![](klipper_settings.jpg)
 
 `Ставьте звездочку проекту, так будет проще находить владельцам принтера нужную информацию`
 
