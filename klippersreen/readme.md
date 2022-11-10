@@ -29,10 +29,9 @@ EndSection
 ```bash
 sudo apt install xserver-xorg-input-libinput
 ```
-В armbian конфиге: `sudo nano /boot/armbianEnv.txt` прописать стройки касаемо HDMI (тут под 5 дюймовый, у меня другое написано):
+В armbian конфиге: `sudo nano /boot/armbianEnv.txt` прописать стройки касаемо HDMI:
+- 5 дюймов
 ```bash
-dtoverlay=vc4-fkms-v3d
-hdmi_force_edid_audio=1
 max_usb_current=1
 hdmi_force_hotplug=1
 config_hdmi_boost=7
@@ -40,6 +39,15 @@ hdmi_group=2
 hdmi_mode=87
 hdmi_drive=2
 hdmi_cvt 800 480 60 6 0 0 0
+```
+- 7 дюймов:
+```bash
+max_usb_current=1
+hdmi_force_hotplug=1
+config_hdmi_boost=10
+hdmi_group=2
+hdmi_mode=87
+hdmi_ctv 1024 600 60 6 0 0 0
 ```
 Еще прописал в файле `/usr/share/X11/xorg.conf.d/90-monitor.conf` такое:
 ```bash
