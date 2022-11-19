@@ -5,6 +5,7 @@
 
 Если не запустился сразу покупной экран.
 
+[**Klipper: Debian + KlipperScreen + Экран СТОК FB Ghost6 + MKS TS35-R V2.0**](https://fdmprint.ru/2022/11/19/klipper-debian-klipperscreen-ehkran-stok-fb-ghost6-mks-ts35-r-v2-0/)
 
 [**Что Купить**](what_2_buy/readme.md) всё что надо для того, чтобы принтер  вас любил.
  
