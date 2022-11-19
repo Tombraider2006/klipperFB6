@@ -29,7 +29,7 @@
 9. [**timelapse matrix stail**](matrix_timelapse/readme.md)
 Новейший проект от меня, только тут и нигде больше)
 
-10. *<h3>**Про акселерометр**</h3>*
+10. *<h4>**Про акселерометр**</h4>*
 
     1. [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
