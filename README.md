@@ -75,7 +75,8 @@
 
 7. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
 ![](klipper_settings.jpg)
-
+8. [**Макросы**](macros/readme.md) нужные и не очень
+   
 *<h2>**остальное**</h2>*
 
  *<h3>**про камеру**</h3>*
