@@ -43,7 +43,7 @@
 
 
 *<h2>**Klipper**</h2>*
- 1.  [**Настройка Klipper для 3D-принтера FlyingBear Ghost 6 с подключением по USB**](https://github.com/flyingbear-reborn2/wiki/blob/main/FBG6/klipper.md) 
+ 1.  [**Настройка Klipper для 3D-принтера FlyingBear Ghost 6 с подключением по USB**](klipper.md) 
  мануал  для совсем новичков, написан при моем содействии.
 
  2. [**klipper_config**](https://github.com/Tombraider2006/klipperFB6/tree/main/klipper_config)
