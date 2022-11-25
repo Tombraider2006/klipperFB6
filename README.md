@@ -10,26 +10,27 @@
     в папке drivers_uart краткий мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1
   
 2.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
+3.  [**Управление питанием системы, содержащей одноплатный компьютер Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
  
-3.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
+4.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
      Подключение датчика температуры BME280
   
-4.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
+5.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
      монтаж щетки очистки сопла, модель, макрос.
   
-5. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
+6. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
    Вариант размещения оборудования внутри принтера. там же необходимые модели для этого.
  
-6. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
+7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
 
-7. [**biqu_h2**](karas/readme.md)
+8.  [**biqu_h2**](karas/readme.md)
 Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6
 
- 8. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
-9. [**timelapse matrix stail**](matrix_timelapse/readme.md)
+ 1. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
+1. [**timelapse matrix stail**](matrix_timelapse/readme.md)
 Новейший проект от меня, только тут и нигде больше)
 
-10. *<h4>**Про акселерометр**</h4>*
+1.  *<h4>**Про акселерометр**</h4>*
 
     1. [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
@@ -39,7 +40,7 @@
 
      3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
 
-  11. [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
+  1.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
 
 *<h2>**Klipper**</h2>*
