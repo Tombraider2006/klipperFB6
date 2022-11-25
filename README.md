@@ -73,12 +73,13 @@
  5. [**wiki по телеграм боту**](https://github.com/nlef/moonraker-telegram-bot/wiki).
 
 6. [**Установка  телеграмм бота на русском**](https://fdmprint.ru/2022/11/03/klipper-telegram-bot-easy/)
+     конфиг файл бота для  мишки 6 можно скачать [тут](klipper_config/telegram.conf) кладем в папку конфигов не забываем вписать свои данные.
 
-7. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
+8. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
 ![](klipper_settings.jpg)
-8. Чтобы не бегать с флешкой в Cura есть плагин Moonraker ищется через магазин. в нем пишем адрес принтера добавив к нему порт 7125 получится как то так http://ip_printer:7125/  в строке нижней пишем 15 секунд на ожидание ответа от сервера. картинки подключения посмотреть [тут](moonraker.jpg) и [тут](moonaker1.jpg)
+1. Чтобы не бегать с флешкой в Cura есть плагин Moonraker ищется через магазин. в нем пишем адрес принтера добавив к нему порт 7125 получится как то так http://ip_printer:7125/  в строке нижней пишем 15 секунд на ожидание ответа от сервера. картинки подключения посмотреть [тут](moonraker.jpg) и [тут](moonaker1.jpg)
    
-9.  [**Макросы**](macros/readme.md) нужные и не очень
+2.  [**Макросы**](macros/readme.md) нужные и не очень
    
 *<h2>**остальное**</h2>*
 
