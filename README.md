@@ -26,11 +26,11 @@
 8.  [**biqu_h2**](karas/readme.md)
 Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6
 
- 1. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
-1. [**timelapse matrix stail**](matrix_timelapse/readme.md)
+ 9. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
+10. [**timelapse matrix stail**](matrix_timelapse/readme.md)
 Новейший проект от меня, только тут и нигде больше)
 
-1.  *<h4>**Про акселерометр**</h4>*
+11. *<h4>**Про акселерометр**</h4>*
 
     1. [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
