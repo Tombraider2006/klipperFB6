@@ -24,7 +24,8 @@
 7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
 
 8.  [**biqu_h2**](karas/readme.md)
-Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6
+Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
+ Уже 2 версии: под 4010 и 5015 кулеры.
 
  9. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
 10. [**timelapse matrix stail**](matrix_timelapse/readme.md)
