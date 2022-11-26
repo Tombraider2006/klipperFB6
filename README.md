@@ -25,7 +25,7 @@
 
 8.  [**biqu_h2**](karas/readme.md)
 Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
- Уже 2 версии: под 4010 и 5015 кулеры.
+ Уже 2 версии: под 4010 и 5015 кулеры. появилась возможность прикрепить bl-touch!
 
  9. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
 10. [**timelapse matrix stail**](matrix_timelapse/readme.md)
@@ -76,6 +76,7 @@
 6. [**Установка  телеграмм бота на русском**](https://fdmprint.ru/2022/11/03/klipper-telegram-bot-easy/)
    
      конфиг файл бота для  мишки 6 можно скачать [тут](klipper_config/telegram.conf) кладем в папку конфигов не забываем вписать свои данные.
+
      ![](klipper_config/telegram_bot.jpg)
 
 7. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
