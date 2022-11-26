@@ -386,3 +386,6 @@ gcode:
      {% endfor %} 
        SET_LED LED=my_neopixel RED=0.5 GREEN=0.5 BLUE=0.5
 ```
+
+
+Для тех кто домотал до самого низу [бонус](https://github.com/digitalninja-ro/klipper-neopixel) Это ссылка на ресурс с макросами прогрессбара и индикации температуры хотенда и вот ссылка на [видео](https://youtu.be/14LC8Tcd_JQ) c ними.
