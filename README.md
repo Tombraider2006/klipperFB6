@@ -74,6 +74,7 @@
 
 6. [**Установка  телеграмм бота на русском**](https://fdmprint.ru/2022/11/03/klipper-telegram-bot-easy/)
      конфиг файл бота для  мишки 6 можно скачать [тут](klipper_config/telegram.conf) кладем в папку конфигов не забываем вписать свои данные.
+     ![](klipper_config/telegram_bot.jpg)
 
 8. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
 ![](klipper_settings.jpg)
