@@ -14,7 +14,7 @@ endstop_pin: probe:z_virtual_endstop
 sensor_pin: ^PC4
 control_pin: PA8
 y_offset: -17.85
-#z_offset: 2.0
+z_offset: 2.0
 x_offset: 22.65
 speed: 10.0
 samples: 2
