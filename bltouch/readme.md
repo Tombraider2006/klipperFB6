@@ -59,4 +59,10 @@ speed: 150
 screw_thread: CW-M4
 ```
 
+юстировка через klippersreen:
+
+![](screen.jpg)
+
+калибровка стола:
+ 
 ![](table.jpg)
