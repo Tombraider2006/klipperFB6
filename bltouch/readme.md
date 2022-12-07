@@ -7,6 +7,7 @@
 ```gcode
 #endstop_pin: !PC8 
 endstop_pin: probe:z_virtual_endstop
+#position_endstop: 0.5
 ```
 
 Создаем новый раздел и вписываем это:
