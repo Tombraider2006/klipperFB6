@@ -6,6 +6,8 @@
 
 *<h2>**Модификации**</h2>*
 
+1. [**Marlin 2.1**](marlin/readme.md) модифицированные прошивки марлин, чтоб было на что откатиться, если не понравился klipper.
+
 1.  [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
     в папке drivers_uart краткий мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1
   
@@ -25,7 +27,8 @@
 
 8.  [**biqu_h2**](karas/readme.md)
 Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
- Уже 2 версии: под 4010 и 5015 кулеры. появилась возможность прикрепить bl-touch!
+ Уже 2 версии: под 4010 и 5015 кулеры. [появилась возможность прикрепить bl-touch!](bltouch/readme.md)
+
 
  9. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
 10. [**timelapse matrix stail**](matrix_timelapse/readme.md)
@@ -82,8 +85,10 @@
 7. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
 ![](klipper_settings.jpg)
 1. Чтобы не бегать с флешкой в Cura есть плагин Moonraker ищется через магазин. в нем пишем адрес принтера добавив к нему порт 7125 получится как то так http://ip_printer:7125/  в строке нижней пишем 15 секунд на ожидание ответа от сервера. картинки подключения посмотреть [тут](moonraker.jpg) и [тут](moonaker1.jpg)
-   
-2.  [**Макросы**](macros/readme.md) нужные и не очень
+
+9. [**Настройка bl-touch**](bltouch/readme.md) 
+
+1.  [**Макросы**](macros/readme.md) нужные и не очень
    
 *<h2>**остальное**</h2>*
 
