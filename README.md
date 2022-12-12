@@ -102,9 +102,9 @@
 если хотите получить действительно хорошие видео рекомендую [вот этот плагин](https://github.com/mainsail-crew/moonraker-timelapse) есть отвод головы на время сьемки кадра, переменный целевой fps и многое другое. посмотрите страничку авторов на гитхабе - не пожалеете. Или читайте инструкцию по установке [тут](https://fdmprint.ru/2022/11/24/klipper-timelapse-intervalnaja-semka-ustanovka-nastrojjka-moonraker-timelapse/)
 
 
+[**Выравнивание стола и калибровка первого слоя**](https://telegra.ph/Vyravnivanie-stola-i-kalibrovka-pervogo-sloya-12-11)
 
-
-
+![](level.jpg)
 
 
 
