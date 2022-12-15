@@ -12,6 +12,7 @@
 endstop_pin: probe:z_virtual_endstop
 #position_endstop: 0.5
 ```
+(*Внимание! у вас в конфиге уже может быть раздел bed_mesh - его ищем\удаляем и потом вписываем этот*)
 
 Создаем новый раздел и вписываем это:
 
@@ -49,11 +50,14 @@ gcode:
 [bed_mesh]
 speed: 40
 horizontal_move_z: 5 # отступ во время проб по оси Z
-mesh_min: 30,10 
+mesh_min: 30,10 # CAUTION! = probe_xy = nozzle_xy + offset_xy
 mesh_max: 245,185 # стол с учетом сдвига на bltouch
 probe_count: 6,4 # здесь мы ставим количество точек проб по икс и по игрек
+algorithm: bicubic
+fade_start: 1 #на какой высоте начнем выравнивать модель
+fade_end: 10 #на этой высоте в мм закончим выыравнивать.
 
-[screws_tilt_adjust] 
+[screws_tilt_adjust] # = nozzle_xy = probe_xy - offset_xy
 screw4: 5,30 
 screw4_name: front left screw
 screw1: 210,25
