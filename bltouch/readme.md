@@ -55,7 +55,7 @@ mesh_max: 245,185 # стол с учетом сдвига на bltouch
 probe_count: 6,4 # здесь мы ставим количество точек проб по икс и по игрек
 algorithm: bicubic
 fade_start: 1 #на какой высоте начнем выравнивать модель
-fade_end: 10 #на этой высоте в мм закончим выыравнивать.
+fade_end: 10 #на этой высоте в мм закончим выравнивать.
 
 [screws_tilt_adjust] # = nozzle_xy = probe_xy - offset_xy
 screw4: 5,30 
