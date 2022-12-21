@@ -25,26 +25,35 @@
  
 7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
 
-8.  [**biqu_h2**](karas/readme.md)
-Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
- Уже 2 версии: под 4010 и 5015 кулеры. [появилась возможность прикрепить bl-touch!](bltouch/readme.md)
-9. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Экструдер разработанный для замены стандартного на принтере FBG6. Используется родной мотор и распространенные запчасти от BMG, встает на родную голову без ее переделок.
-
- 9. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
-10. [**timelapse matrix stail**](matrix_timelapse/readme.md)
+ 2. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
+2.  [**timelapse matrix stail**](matrix_timelapse/readme.md)
 Новейший проект от меня, только тут и нигде больше)
 
-11. *<h4>**Про акселерометр**</h4>*
+*<h3>**Модификации Экструдера**</h3>*
 
-    1. [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
+1.  [**biqu_h2**](karas/readme.md)
+Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
+ Уже 2 версии: под 4010 и 5015 кулеры. [появилась возможность прикрепить bl-touch!](bltouch/readme.md)
+1. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Экструдер разработанный для замены стандартного на принтере FBG6. Используется родной мотор и распространенные запчасти от BMG, встает на родную голову без ее переделок.
+2. [**Замена каретки и установка Sailfin Экструдера**](https://youtu.be/aw4aZP5nTXc)
+   
+  Под видео есть ссылки на все необходимые файлы и запчасти.
+  
+4. [**Установка E3D V6 хотенда**](https://youtu.be/zrmbZkC-GsI) 
+   Новая голова для 6ого призрака от летающих медведей для установки  радиатора e3d с креплением гайкой. Позволяет использовать в дальнейшем распространенные резьбовые термобарьеры. Так же немного переделаны сопла обдува модели, теперь они съемные и не будут мешать, при обслуживании хотенда.
+
+
+  *<h4>**Про акселерометр**</h4>*
+
+ 1.  [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
 
-     2. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
+     1. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
    Подключение акселерометра к OrangePi 3LTS 
 
-     3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
+     2. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
 
-  1.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
+  2.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
 
 *<h2>**Klipper**</h2>*
