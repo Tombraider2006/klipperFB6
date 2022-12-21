@@ -28,7 +28,7 @@
 8.  [**biqu_h2**](karas/readme.md)
 Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
  Уже 2 версии: под 4010 и 5015 кулеры. [появилась возможность прикрепить bl-touch!](bltouch/readme.md)
-
+9. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Экструдер разработанный для замены стандартного на принтере FBG6. Используется родной мотор и распространенные запчасти от BMG, встает на родную голову без ее переделок.
 
  9. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
 10. [**timelapse matrix stail**](matrix_timelapse/readme.md)
