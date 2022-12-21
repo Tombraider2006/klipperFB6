@@ -4,7 +4,7 @@
 
 Дисплей: [BIGTREETECH PI  TFT50](https://biqu.equipment/collections/lcd/products/bigtreetech-pi-tft43-v2-0-screen-board?variant=39337700819042)
 
-[Модуль камеры ночного видения Raspberry Pi 4B, веб-камера 5 Мп с инфракрасным светодиодный к-датчиком светильник кой для Raspberry Pi 4B/3B +/3B](https://sl.aliexpress.ru/p?key=aCgJtkI)
+[Модуль камеры ночного видения Raspberry Pi 4B, веб-камера 5 Мп с инфракрасным датчиком светильник для Raspberry Pi 4B/3B +/3B](https://sl.aliexpress.ru/p?key=aCgJtkI)
 
 Крепление экрана сделано на основе [проекта](https://www.thingiverse.com/thing:4689019)
 
