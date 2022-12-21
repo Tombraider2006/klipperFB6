@@ -79,6 +79,8 @@
 
       4. **Клипперскрин** если у вас raspberry [тут](https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md) или [тут](https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md)
       5. [**Клипперскрин** на телефоне](https://telegra.ph/KlipperScreen-na-starom-android-telefone-12-16)
+   
+      6. [**Проект "Чувырла"**](chuvir_screen/readme.md) крепление экрана и видеокамеры на место штатного экрана. 
  
   1. [**хорошее wiki по клипперу**](https://klipper.wiki/ru/home/initial/peripheral) 
      когда мне лень писать и я пишу что посмотрите сами, лезьте на этот ресурс вероятнее найдете подробную инструкцию
