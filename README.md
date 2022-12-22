@@ -73,6 +73,8 @@
 
 
       2. **Клипперскрин** подключение штатного экрана по [этому мануалу](https://sergey1560.github.io/fb4s_howto/mks_ts35/) в родном мануале совсем невнятная схема подключения [тут](TS35%20Klipper.pdf) тоже самое но чуть понятнее. 
+      
+      3. [**Повышение скорости работы MKS TS35-R**](https://github.com/evgs/OrangePi3Lts/tree/main/fb-st7796-fast)  Актуально для OrangePi3 LTS. На Raspberry PI экран и так работает на высокой частоте SPI
 
 
       3. [**Klipper: Debian + KlipperScreen + Экран СТОК FB Ghost6 + MKS TS35-R V2.0**](https://fdmprint.ru/2022/11/19/klipper-debian-klipperscreen-ehkran-stok-fb-ghost6-mks-ts35-r-v2-0/)
