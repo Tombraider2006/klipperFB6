@@ -47,12 +47,14 @@
  1.  [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
 
-     1. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
+2. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
    Подключение акселерометра к OrangePi 3LTS 
 
-     2. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
+3. [**atmega168-klipper**](https://github.com/iliarub/atmega168-klipper)  ADXL через ардуино
 
-  2.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
+3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
+
+ [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
 
 *<h2>**Klipper**</h2>*
