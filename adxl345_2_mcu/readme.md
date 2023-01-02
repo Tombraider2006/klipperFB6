@@ -18,7 +18,7 @@
 
 cs_pin: PC15
 
-axes_map: -x,z,-y  # тут возможно придется править под ваше расположение осей
+axes_map: -x,y,z  # тут возможно придется править под ваше расположение осей
 
 spi_software_sclk_pin: PB13
 
@@ -33,7 +33,14 @@ accel_chip: adxl345
 probe_points:
   100, 100, 20
 ```
+**установка ПО**
 
+Заходим в консоль нашей OrangePI и пишем:
+```bash
+sudo apt update
+sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
+~/klippy-env/bin/pip install -v numpy
+```
 
 Проверка настройки
 
