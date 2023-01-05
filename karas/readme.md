@@ -139,3 +139,5 @@ G1 E300 F60
    Внешний вид:
    ![](Deep__Karas.jpg)
    ![](Deep__Karas2.jpg)
+
+[**Deep Karas Misago7**](https://github.com/Ryoko/DeepKarasR) Глубокая переработка карася от Misago
