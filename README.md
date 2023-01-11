@@ -37,7 +37,9 @@
 1. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Экструдер разработанный для замены стандартного на принтере FBG6. Используется родной мотор и распространенные запчасти от BMG, встает на родную голову без ее переделок.
 2. [**Замена каретки и установка Sailfin Экструдера**](https://youtu.be/aw4aZP5nTXc)
     Под видео есть ссылки на все необходимые файлы и запчасти.
-  
+
+3. [**Голова v2 от RuLED74 на FBG6.**](RuLED74_head_FBG6.rar) E3D V6 хотенд радиатор с гайкой, mrf экструдер(он же sailfin) под круглый мотор, предусмотрен монтаж 3d touch
+
 4. [**Установка E3D V6 хотенда**](https://youtu.be/zrmbZkC-GsI) 
    Новая голова для 6ого призрака от летающих медведей для установки  радиатора e3d с креплением гайкой. Позволяет использовать в дальнейшем распространенные резьбовые термобарьеры. Так же немного переделаны сопла обдува модели, теперь они съемные и не будут мешать, при обслуживании хотенда.
 5. [**Проект "Оливье"**](https://telegra.ph/Pechatayushchaya-golova-Olive-12-22) 
@@ -48,10 +50,10 @@
  1.  [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
 
-2. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
+1. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
    Подключение акселерометра к OrangePi 3LTS 
 
-3. [**atmega168-klipper**](https://github.com/iliarub/atmega168-klipper)  ADXL через ардуино
+2. [**atmega168-klipper**](https://github.com/iliarub/atmega168-klipper)  ADXL через ардуино
 
 3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
 
