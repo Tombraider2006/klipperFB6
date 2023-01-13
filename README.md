@@ -105,7 +105,6 @@
 ![](klipper_settings.jpg)
 1. Чтобы не бегать с флешкой в Cura есть плагин **Moonraker** ищется через магазин. в нем пишем адрес принтера добавив к нему порт 7125 получится как то так http://ip_printer:7125/  в строке нижней пишем 15 секунд на ожидание ответа от сервера. картинки подключения посмотреть [тут](moonraker.jpg) и [тут](moonaker1.jpg)
 
-2. [**Настройка bl-touch**](bltouch/readme.md) 
 
 3.  [**Макросы**](macros/readme.md) нужные и не очень
    
@@ -121,16 +120,9 @@
 если хотите получить действительно хорошие видео рекомендую [вот этот плагин](https://github.com/mainsail-crew/moonraker-timelapse) есть отвод головы на время сьемки кадра, переменный целевой fps и многое другое. посмотрите страничку авторов на гитхабе - не пожалеете. Или читайте инструкцию по установке [тут](https://fdmprint.ru/2022/11/24/klipper-timelapse-intervalnaja-semka-ustanovka-nastrojjka-moonraker-timelapse/)
 
 
-[**Выравнивание стола и калибровка первого слоя**](https://telegra.ph/Vyravnivanie-stola-i-kalibrovka-pervogo-sloya-12-11)
-
-![](level.jpg)
-
-
-
-
 [**Flyingbear.info**](https://flyingbear.info/firmware/klipper/klipper_config)- полезный ресурс от 5 мишки, там про то как настроить например вебкамеру и не только. многое подойдет на 6 мишку если не забывать что у нас разные платы)
 
-[**Руководство на русском языке**](FlyingBear_Ghost_6_RU.pdf) ну вдруг кто книжечку потерял.
+
  
  [**телеграм чат FB6 владельцев и Reborn2**](https://t.me/fbg5_waiters) где есть многое, если не всё для владельца flying bear ghost 6  он же просто мишка 6. 
 

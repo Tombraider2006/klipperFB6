@@ -1,5 +1,7 @@
 *<h2>Мануалы по настройке</h2>* 
 
+[**Руководство на русском языке**](../FlyingBear_Ghost_6_RU.pdf) ну вдруг кто книжечку потерял.
+
 [**Перед первым включением**](https://fb-waiters.bibirevo.net/forbeginners/justreceived)
 
 [**Настройка ремней**](belts.md)
