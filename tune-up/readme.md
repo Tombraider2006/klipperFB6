@@ -8,6 +8,8 @@
 
 [**Настройка стола**](https://fb-waiters.bibirevo.net/forbeginners/heaterbedsetup)
 
+[**Выравнивание стола и калибровка первого слоя**](https://telegra.ph/Vyravnivanie-stola-i-kalibrovka-pervogo-sloya-12-11)
+
 [**Смазка принтера**](https://fb-waiters.bibirevo.net/tuning/oil)
 
 [**Настройка bl-touch**](../bltouch/readme.md)
