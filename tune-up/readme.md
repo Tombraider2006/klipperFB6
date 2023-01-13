@@ -10,6 +10,6 @@
 
 [**Смазка принтера**](https://fb-waiters.bibirevo.net/tuning/oil)
 
-
+[**Настройка bl-touch**](../bltouch/readme.md)
 
 
