@@ -14,6 +14,8 @@
 
 [**Смазка принтера**](https://fb-waiters.bibirevo.net/tuning/oil)
 
+[**Смазка принтера Ghost6**](FB_Ghost_6_Lubrication_Instructions.docx) в картинках  файл word
+
 [**Настройка bl-touch**](../bltouch/readme.md)
 
 
