@@ -16,6 +16,8 @@
 
 [**Смазка принтера Ghost6**](FB_Ghost_6_Lubrication_Instructions.docx) в картинках  файл word
 
+[**Инструкция по полной разборке-сборке-смазке принтера ghost 6**](https://fb-waiters.bibirevo.net/hardware/fbg6/razbor)
+
 [**Настройка bl-touch**](../bltouch/readme.md)
 
 
