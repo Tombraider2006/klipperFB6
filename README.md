@@ -25,8 +25,10 @@
  
 7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
 
- 2. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
-2.  [**timelapse matrix stail**](matrix_timelapse/readme.md)
+  9. [**Расширение памяти на Orange Pi 3 LTS (и не только)**](https://telegra.ph/Edit-01-28-2) 
+
+ 10. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
+11.  [**timelapse matrix stail**](matrix_timelapse/readme.md)
 Новейший проект от меня, только тут и нигде больше)
 
 *<h3>**Модификации Экструдера**</h3>*
