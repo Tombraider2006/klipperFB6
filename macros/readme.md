@@ -59,3 +59,5 @@ pin: PA2
 подробнее [тут](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/vibr_measurements.md)
 
 в апельсинке есть баг обработки скрипта. добавили паузу при обработке, скачать модифицированный [plot_graphs.sh](../klipper_config_my/scripts/plot_graphs.sh)
+
+[**Востановление печати после сбоя питания**](power_loss.cfg) на данный момент не проверен, стырен [тут](https://github.com/CODeRUS/klipper_config/blob/rumba32/power_loss_simple.cfg)
