@@ -27,8 +27,10 @@
 
   9. [**Расширение памяти на Orange Pi 3 LTS (и не только)**](https://telegra.ph/Edit-01-28-2) 
 
- 10. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
-11.  [**timelapse matrix stail**](matrix_timelapse/readme.md)
+   10. [**Перенос файлов Gcode с внутреннего носителя OrangePi на внешнюю SD карту**](https://telegra.ph/Perenos-fajlov-Gcode-s-vnutrennego-nositelya-OrangePi-na-vneshnyuyu-SD-kartu-02-02)
+
+ 8.  [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
+8.   [**timelapse matrix stail**](matrix_timelapse/readme.md)
 Новейший проект от меня, только тут и нигде больше)
 
 *<h3>**Модификации Экструдера**</h3>*
