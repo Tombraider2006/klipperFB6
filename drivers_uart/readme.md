@@ -59,10 +59,10 @@ filament_diameter: 1.750
 heater_pin: PE5
 sensor_type: Generic 3950
 sensor_pin: PC1
-#control: pid
-#pid_Kp: 14.669
-#pid_Ki: 0.572
-#pid_Kd: 94.068
+control: pid
+pid_Kp: 14.669
+pid_Ki: 0.572
+pid_Kd: 94.068
 min_temp: 0
 max_temp: 320
 pressure_advance = 0.022
