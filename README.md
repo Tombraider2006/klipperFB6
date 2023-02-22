@@ -16,6 +16,8 @@
  
 4.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
      Подключение датчика температуры BME280
+
+5. [**подключение i2c датчиков к плате принтера**](i2c_mcu/readme.md)
   
 5.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
      монтаж щетки очистки сопла, модель, макрос.
