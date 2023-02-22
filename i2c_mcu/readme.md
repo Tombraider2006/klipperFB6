@@ -36,7 +36,7 @@ i2c_bus: i2c2
 [temperature_sensor HTU21D]
 sensor_type: HTU21D
 i2c_address: 64
-i2c_bus: i2c.2
+i2c_bus: i2c2
 ```
 После `temperature_sensor` можно вписать произвольное имя. как в первом примере.
  
