@@ -51,7 +51,10 @@
 5. [**Проект "Оливье"**](https://telegra.ph/Pechatayushchaya-golova-Olive-12-22) 
 
 6. [**bl-touch**](bltouch/readme.md) варианты крепления датчика на стоковую голову и на BIQU
+   
   *<h4>**Про акселерометр**</h4>*
+
+  1. [**Как перестать беспокоится и научится читать графики акслерометра**](accel_graph/readme.md)
 
  1.  [**adxl345_2_mcu**](https://github.com/Tombraider2006/klipperFB6/tree/main/adxl345_2_mcu) 
     способ подключения акселерометра к плате принтера.
@@ -70,7 +73,7 @@
  1.  [**Настройка Klipper для 3D-принтера FlyingBear Ghost 6 с подключением по USB**](klipper.md) 
  мануал  для совсем новичков, написан при моем содействии.
 
- 2. [**klipper_config**](https://github.com/Tombraider2006/klipperFB6/tree/main/klipper_config)
+ 1. [**klipper_config**](https://github.com/Tombraider2006/klipperFB6/tree/main/klipper_config)
  
     в папке конфиг клиппера на flying bear ghost 6 
   подходит для стокового принтера без доработок, также есть закомментированные разделы небольших доработок. в комментариях файла config.cfg  есть какие то пояснения. читайте внимательно.
