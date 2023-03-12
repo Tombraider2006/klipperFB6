@@ -62,14 +62,14 @@ P.S.  Если очень захотелось подцепить 2 акселе
 
 ```
 [adxl345 X]
-cs_pin: PC13
+cs_pin: PC13  # контакт акселерометра оси икс
 spi_software_sclk_pin: PB13
 spi_software_mosi_pin: PC3
 spi_software_miso_pin: PC2
 axes_map: x, y, z # не забываем править оси на нужные вам
 
 [adxl345 Y]
-cs_pin: PC15
+cs_pin: PC15 # контакт акселерометра оси игрек
 spi_software_sclk_pin: PB13
 spi_software_mosi_pin: PC3
 spi_software_miso_pin: PC2
