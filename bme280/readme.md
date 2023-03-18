@@ -58,8 +58,8 @@ sudo i2cdetect -y 0
 
 ```bash
 cd ~/klipper/
-sudo cp "./scripts/klipper-mcu-start.sh" /etc/init.d/klipper_mcu
-sudo update-rc.d klipper_mcu default
+sudo cp ./scripts/klipper-mcu.service /etc/systemd/system/
+sudo systemctl enable klipper-mcu.service
 ```
 
 Действиями выше, был создан новый элемент автозапуска, и добавлен в скрипты загрузки.
