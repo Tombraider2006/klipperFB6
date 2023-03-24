@@ -20,4 +20,6 @@
 
 [**Настройка bl-touch**](../bltouch/readme.md)
 
+[**Настройка Шагов экструдера на примере BIQU H2**](extruder.md)
+
 
