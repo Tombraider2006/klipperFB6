@@ -111,6 +111,7 @@ EndSection
 Для этого в самое начало `klipperscreen.conf`  добавляем такую строчку:
 
 ```
+[printer FlyingBear Ghost 6]
 # Camera configuration
 camera_url: http://127.0.0.1/webcam/?action=stream
 ```
