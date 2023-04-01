@@ -23,3 +23,5 @@
 [**Настройка Шагов экструдера на примере BIQU H2**](extruder.md)
 
 
+[**Настройка веб камеры(Яркость, баланс и тд)**](https://telegra.ph/Nastrojka-veb-kameryYArkost-balans-i-td-04-01)
+
