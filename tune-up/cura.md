@@ -6,4 +6,6 @@
 "platform": "имя файла.obj",
 "platform_texture": "имя файла.PNG",
 
+[скачать файлы](FBG6_Table.rar)
+
 ![](cura_table.jpg)
