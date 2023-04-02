@@ -68,6 +68,8 @@
 
 3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
 
+4. [**Анализ вибраций линейного движения Klipper**](https://github.com/worksasintended/klipper_linear_movement_analysis) альтернативная система построения графиков (заточена под малинку, на апельсинке не тестировалась, если запустите отпишитесь мне)
+
  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
 
