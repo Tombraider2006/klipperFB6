@@ -26,3 +26,5 @@
 [**Настройка веб камеры(Яркость, баланс и тд)**](https://telegra.ph/Nastrojka-veb-kameryYArkost-balans-i-td-04-01)
 
 [**Регулировка тока экструдера**](potenciometr.md)
+
+[**Смена картинки стола в Cura**]
