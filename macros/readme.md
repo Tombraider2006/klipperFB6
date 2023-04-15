@@ -42,7 +42,7 @@ pin: PA2
 
  Это почти как обычная сетка для стола, но только "где" и "когда" это необходимо. Иногда я печатаю мелкие детали, иногда печатаю целые пластины, и мне нравится получать точную кровать_сетку (например, 9x9 или больше). Однако это занимает много времени и бесполезно прощупывать всю пластину только на небольшой части посередине. Здесь помогает адаптивная сетка кровати. подробнее [тут](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/adaptive_bed_mesh.md)
 
- [**Измерение вибрации**](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/vibr_measurements.md)
+ [**Измерение вибрации**](https://github.com/Frix-x/klippain/blob/main/docs/features/vibr_measurements.md)
 
  Описание(перевод с гита)
 
@@ -56,8 +56,8 @@ pin: PA2
 Затем он переместит график и связанный с ним архив CSV в папку результатов ADXL .
 3. он управляет папкой, чтобы удалить старые файлы и сохранить только набор (по умолчанию три) самых последних результатов.
 4. Результаты можно найти в папке результатов ADXL , которая находится непосредственно в корне папки конфигурации, чтобы **обеспечить доступ непосредственно из вашего браузера с помощью файлового менеджера FLuidd/Maisail. SSH не нужен!**
-подробнее [тут](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/vibr_measurements.md)
+подробнее [тут](https://github.com/Frix-x/klippain/blob/main/docs/features/vibr_measurements.md)
 
-в апельсинке есть баг обработки скрипта. добавили паузу при обработке, скачать модифицированный [plot_graphs.sh](../klipper_config_my/scripts/plot_graphs.sh)
+~~в апельсинке есть баг обработки скрипта. добавили паузу при обработке, скачать модифицированный [plot_graphs.sh](../klipper_config_my/scripts/plot_graphs.sh)~~
 
 [**Восстановление печати после сбоя питания**](power_loss.cfg) на данный момент не проверен, стырен [тут](https://github.com/CODeRUS/klipper_config/blob/rumba32/power_loss_simple.cfg)
