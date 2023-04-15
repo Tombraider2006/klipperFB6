@@ -60,4 +60,7 @@ pin: PA2
 
 ~~в апельсинке есть баг обработки скрипта. добавили паузу при обработке, скачать модифицированный [plot_graphs.sh](../klipper_config_my/scripts/plot_graphs.sh)~~
 
+
+прочитать про все функции скрипта [тут](https://github.com/Frix-x/klippain/blob/main/docs/features.md)
+
 [**Восстановление печати после сбоя питания**](power_loss.cfg) на данный момент не проверен, стырен [тут](https://github.com/CODeRUS/klipper_config/blob/rumba32/power_loss_simple.cfg)
