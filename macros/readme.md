@@ -38,7 +38,7 @@ pin: PA2
 ![](../led_rgb/party.gif) 
 
 
-[**Адаптивная сетка для стола**](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/adaptive_bed_mesh.md)
+[**Адаптивная сетка для стола**](https://github.com/Frix-x/klippain/blob/main/docs/features/adaptive_bed_mesh.md)
 
  Это почти как обычная сетка для стола, но только "где" и "когда" это необходимо. Иногда я печатаю мелкие детали, иногда печатаю целые пластины, и мне нравится получать точную кровать_сетку (например, 9x9 или больше). Однако это занимает много времени и бесполезно прощупывать всю пластину только на небольшой части посередине. Здесь помогает адаптивная сетка кровати. подробнее [тут](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/adaptive_bed_mesh.md)
 
