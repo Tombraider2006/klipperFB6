@@ -80,7 +80,7 @@
  1. [**Klipper на Orange Pi3 LTS - легко и быстро**](https://github.com/evgs/OrangePi3Lts/blob/main/sd_images.md) Здесь выложены предварительно настроенные образы Linux (Armbian и Debian) для Orange Pi3 LTS с уже установленным Klipper. Пользователю остаётся только настроить сеть и записать printer.cfg, соответствующий его 3д-принтеру.
  
  2.  [**Настройка Klipper для 3D-принтера FlyingBear Ghost 6 с подключением по USB**](klipper.md) 
- мануал  для совсем новичков, написан при моем содействии.
+ мануал  для совсем новичков, написан при моем содействии.(устарело)
 
  1. [**klipper_config**](https://github.com/Tombraider2006/klipperFB6/tree/main/klipper_config)
  
