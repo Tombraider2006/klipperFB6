@@ -88,6 +88,7 @@ gcode:
 [gcode_macro RESUME]
 rename_existing: BASE_RESUME
 gcode:
+    G90
     CLEAN_NOZLE
     {% set E = params.E|default(2) %}
     G91
