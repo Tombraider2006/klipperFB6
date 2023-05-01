@@ -67,42 +67,32 @@ G92 E0 ;сброс экструдера
 
  Код можно добавить в скрипт паузы. тогда если видите что в процессе печати налипает пластик на сопло, можно просто нажать паузу и скрипт выполнит очистку сопла.
 
- в конфиге ищем скрипт паузы 
+ в конфиге ищем скрипт RESUME. при постановке на паузу голова отьедет как и раньше. а вот при нажатии RESUME, перед печатью, выполниться скрипт очистки, что логичнее, за время паузы пластик может натечь.. и лучшее время его убрать именно перед печатью.  
 
 
 
 ```gcode
-[gcode_macro PAUSE]
-rename_existing: BASE_PAUSE
+[gcode_macro RESUME]
+rename_existing: BASE_RESUME
 gcode:
-    SAVE_GCODE_STATE NAME=PAUSE_state
-    BASE_PAUSE
-    {% set X = params.X|default(10) %}
-    {% set Y = params.Y|default(10) %}
     {% set E = params.E|default(2) %}
-    {% set Z = params.Z|default(150) %}
     G91
-    G1 E-{E} F2100
-    G1 Z{Z}
+    G1 E{E} F2100
     G90
-    G1 X{X} Y{Y} F6000
+    RESTORE_GCODE_STATE NAME=PAUSE_state MOVE=1
+    BASE_RESUME
 ```
 
 и меняем его на 
 ```gcode
-[gcode_macro PAUSE]
-rename_existing: BASE_PAUSE
+[gcode_macro RESUME]
+rename_existing: BASE_RESUME
 gcode:
-    SAVE_GCODE_STATE NAME=PAUSE_state
-    BASE_PAUSE
-    {% set X = params.X|default(10) %}
-    {% set Y = params.Y|default(10) %}
-    {% set E = params.E|default(2) %}
-    {% set Z = params.Z|default(150) %}
-    G91
-    G1 E-{E} F2100
-    G1 Z{Z}
-    G90
     CLEAN_NOZLE
-
+    {% set E = params.E|default(2) %}
+    G91
+    G1 E{E} F2100
+    G90
+    RESTORE_GCODE_STATE NAME=PAUSE_state MOVE=1
+    BASE_RESUME
 ```
