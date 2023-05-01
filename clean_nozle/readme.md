@@ -62,3 +62,53 @@ G92 E0 ;сброс экструдера
    ![](script.jpg)
 
 Если вы покупали щетку по моей ссылке то латунью о латунь вы сопло о щетку не сотрете конечно, но если сопельки надо подтирать слишком часто, стоит задуматься о том, что причина в чем то другом.
+
+**Дополнение.**
+
+ Код можно добавить в скрипт паузы. тогда если видите что в процессе печати налипает пластик на сопло, можно просто нажать паузу и скрипт выполнит очистку сопла.
+
+ в конфиге ищем скрипт паузы 
+
+
+
+```gcode
+[gcode_macro PAUSE]
+rename_existing: BASE_PAUSE
+gcode:
+    SAVE_GCODE_STATE NAME=PAUSE_state
+    BASE_PAUSE
+    {% set X = params.X|default(10) %}
+    {% set Y = params.Y|default(10) %}
+    {% set E = params.E|default(2) %}
+    {% set Z = params.Z|default(150) %}
+    G91
+    G1 E-{E} F2100
+    G1 Z{Z}
+    G90
+    G1 X{X} Y{Y} F6000
+```
+
+и меняем его на 
+```gcode
+[gcode_macro PAUSE]
+rename_existing: BASE_PAUSE
+gcode:
+    SAVE_GCODE_STATE NAME=PAUSE_state
+    BASE_PAUSE
+    {% set X = params.X|default(10) %}
+    {% set Y = params.Y|default(10) %}
+    {% set E = params.E|default(2) %}
+    {% set Z = params.Z|default(150) %}
+    G91
+    G1 E-{E} F2100
+    G1 Z{Z}
+    G90
+    G1 X1 Y20 F10000 
+    G1 X1 Y130 F10000
+    G1 X1 Y70 F10000
+    G1 X1 Y130 F10000
+    G1 X1 Y70 F10000
+    G1 X1 Y130 F10000
+    G1 X1 Y20 F10000
+
+```
