@@ -109,4 +109,6 @@ full_steps_per_rotation: 200
 velocity: 5
 accel: 1000
 endstop_pin: !PC8
+#position_max: 200
+
 ```
