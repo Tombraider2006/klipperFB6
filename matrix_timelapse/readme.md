@@ -93,3 +93,20 @@ matrix;
 А вот её как раз нет) ждемс или моделируем сами)
 
 ![](to_be_continued.png)
+
+TEST!!! NOT USE!!!!!
+
+тест, не трогать не использовать. деальнейший код просто обсуждение разработки!!!!
+
+```extratmc
+[manual_stepper matrix]
+step_pin: PE8
+dir_pin: PE11
+enable_pin: !PE12
+microsteps: 16
+rotation_distance: 5.625
+full_steps_per_rotation: 200
+velocity: 5
+accel: 1000
+endstop_pin: !PC8
+```
