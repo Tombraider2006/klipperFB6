@@ -100,15 +100,51 @@ TEST!!! NOT USE!!!!!
 
 ```extratmc
 [manual_stepper matrix]
-step_pin: PE8
-dir_pin: PE11
-enable_pin: !PE12
+step_pin: PD15
+dir_pin: PA1
+enable_pin: !PA3
 microsteps: 16
 rotation_distance: 5.625
 full_steps_per_rotation: 200
-velocity: 5
+velocity: 15
 accel: 1000
-endstop_pin: !PC8
-#position_max: 200
+#endstop_pin: !PC8 # раскоментировать при наличии концевика
+position_max: 455 # надо померять расстояние и поставить чуть меньше
+
+
+[gcode_macro BEGIN_LAYER]
+description: Start a new layer and notify system
+gcode:
+
+  {% set CUR  = params.NUM|default(0)|float + 1 %}
+  {% if params.COUNT and params.COUNT != 0 %}
+        {% set TOTAL = params.COUNT|default(0)|float %}
+  {% elif printer["gcode_macro middle"].total_layer and printer["gcode_macro middle"].total_layer!= 0 %}
+        {% set TOTAL = printer["gcode_macro middle"].total_layer %}
+  {% else %}
+         { action_respond_info("COUNT of Total layers is required!") }
+  {% endif %}
+
+  SET_GCODE_VARIABLE MACRO=middle VARIABLE=cur_layer VALUE={CUR}
+  SET_GCODE_VARIABLE MACRO=middle VARIABLE=total_layer VALUE={TOTAL}
+  {action_respond_info("BEGIN CUR: %s TOTAL: %s" % (CUR, TOTAL))}
+
+
+[gcode_macro middle]
+description: Variable_storage
+variable_cur_layer: 0
+variable_total_layer: 0
+gcode:
+#    {action_respond_info("MIDDLE TOTAL: %s TOTAL: %s" % (CURRENT_LAYER, TOTAL_LAYER))}
+
+[gcode_macro MATRIX]
+gcode:
+    {% set CURRENT_LAYER = printer["gcode_macro middle"].cur_layer %}
+    {% set TOTAL_LAYER = printer["gcode_macro middle"].total_layer %}
+
+    {% set angle_move = 450 / TOTAL_LAYER * CURRENT_LAYER %} #задаем переменную сдвига на слой.  первая цифра максимальное расстояние по балке
+ #   { action_respond_info("MATIRIX TOTAL: %s CUR: %s" % (TOTAL_LAYER, CURRENT_LAYER)) } #вывод в консоль текущего слоя и всего слоев
+ #   { action_respond_info("angle %s" % angle_move) } # вывод в консоль текущего угла
+    MANUAL_STEPPER STEPPER=matrix MOVE={angle_move} SPEED=5 #4 макрос сдвига
 
 ```
