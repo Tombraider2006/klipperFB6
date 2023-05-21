@@ -68,13 +68,15 @@
 1. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
    Подключение акселерометра к OrangePi 3LTS 
 
-2. [**atmega168-klipper**](https://github.com/iliarub/atmega168-klipper)  ADXL через ардуино
+2. [**raspbery pi и ADXL345**](https://telegra.ph/Druzhim-raspbery-pi-s-ADXL345-04-25)Подключение акселерометра к Raspberry PI 
 
-3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
+3. [**atmega168-klipper**](https://github.com/iliarub/atmega168-klipper)  ADXL через ардуино
 
-4.[**Настройка Input Shaping в прошивке Marlin**](https://telegra.ph/Nastrojka-Input-Shaping-v-proshivke-Marlin-dlya-Flying-Bear-GHOST-6-02-15) 
+4. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
 
- [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
+5.[**Настройка Input Shaping в прошивке Marlin**](https://telegra.ph/Nastrojka-Input-Shaping-v-proshivke-Marlin-dlya-Flying-Bear-GHOST-6-02-15) 
+
+
 
 
 *<h2>**Klipper**</h2>*
@@ -90,6 +92,16 @@
   подходит для стокового принтера без доработок, также есть закомментированные разделы небольших доработок. в комментариях файла config.cfg  есть какие то пояснения. читайте внимательно.
 *не нужно бездумно копировать всю папку, вам нужен только [конфиг](klipper_config/printer.cfg) остальные файлы просто для сравнения со своими когда вам это будет нужно.*
  3. [**Удаленное управление Klipper**](https://telegra.ph/Udalennoe-upravlenie-Klipperom-cherez-privychnye-interfejsy-04-24)
+ 4. [**хорошее wiki по клипперу**](https://klipper.wiki/ru/home/initial/peripheral) 
+     когда мне лень писать и я пишу что посмотрите сами, лезьте на этот ресурс вероятнее найдете подробную инструкцию
+
+ 5. [**wiki по телеграм боту**](https://github.com/nlef/moonraker-telegram-bot/wiki).
+
+6. [**Установка  телеграмм бота на русском**](https://fdmprint.ru/2022/11/03/klipper-telegram-bot-easy/)
+   
+     конфиг файл бота для  мишки 6 можно скачать [тут](klipper_config/telegram.conf) кладем в папку конфигов не забываем вписать свои данные.
+
+     ![](klipper_config/telegram_bot.jpg)
 
     *<h3>**Про экран, стоковый и не только**</h3>*
   
@@ -108,28 +120,20 @@
 
       4. **Клипперскрин** если у вас raspberry [тут](https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md) или [тут](https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md)
       5. [**Клипперскрин** на телефоне](https://telegra.ph/KlipperScreen-na-starom-android-telefone-12-16)
+   
       6. [**Еще одно руководство по установке клипперскрин на телефон**](https://telegra.ph/KLIPER-NA-ANDROID-TELEFON-03-01)
    
       7. [**Проект "Чувырла"**](chuvir_screen/readme.md) крепление экрана и видеокамеры на место штатного экрана. 
       8. [**4.3" экран с креплением камеры**](https://www.thingiverse.com/thing:5762517) от наших итальянских пользователей.
  
-  1. [**хорошее wiki по клипперу**](https://klipper.wiki/ru/home/initial/peripheral) 
-     когда мне лень писать и я пишу что посмотрите сами, лезьте на этот ресурс вероятнее найдете подробную инструкцию
 
- 1. [**wiki по телеграм боту**](https://github.com/nlef/moonraker-telegram-bot/wiki).
-
-1. [**Установка  телеграмм бота на русском**](https://fdmprint.ru/2022/11/03/klipper-telegram-bot-easy/)
-   
-     конфиг файл бота для  мишки 6 можно скачать [тут](klipper_config/telegram.conf) кладем в папку конфигов не забываем вписать свои данные.
-
-     ![](klipper_config/telegram_bot.jpg)
 
 2. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
 ![](klipper_settings.jpg)
 1. Чтобы не бегать с флешкой в Cura есть плагин **Moonraker** ищется через магазин. в нем пишем адрес принтера добавив к нему порт 7125 получится как то так http://ip_printer:7125/  в строке нижней пишем 15 секунд на ожидание ответа от сервера. картинки подключения посмотреть [тут](moonraker.jpg) и [тут](moonaker1.jpg)
 
 
-3.  [**Макросы**](macros/readme.md) нужные и не очень
+ [**Макросы**](macros/readme.md) нужные и не очень
    
 *<h2>**остальное**</h2>*
 
@@ -137,7 +141,9 @@
    
 2. [**Усиление стола**](https://www.thingiverse.com/thing:5994260)
 
-3.[**крепление для пишки на магнитах**](https://www.thingiverse.com/thing:5686745) 
+3. [**крепление для пишки на магнитах**](https://www.thingiverse.com/thing:5686745) 
+
+4.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
  *<h3>**про камеру**</h3>*
  1. [**ustreamer**](https://fb-waiters.bibirevo.net/klipper/ustreamer#zachem_i_pochemu) 
