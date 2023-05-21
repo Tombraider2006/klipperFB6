@@ -134,7 +134,7 @@
    
 *<h2>**остальное**</h2>*
 
-1. [**Охлаждение стола для FBG6**]{https://3dtoday.ru/blogs/viknikvvk/oxlazdun-dlya-letayushhego-miski}
+1. [**Охлаждение стола для FBG6**](https://3dtoday.ru/blogs/viknikvvk/oxlazdun-dlya-letayushhego-miski)
    
 2. [**Усиление стола**](https://www.thingiverse.com/thing:5994260)
 
