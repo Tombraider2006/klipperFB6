@@ -13,8 +13,7 @@
 1. [**Marlin 2.1**](marlin/readme.md) модифицированные прошивки марлин, чтоб было на что откатиться, если не понравился klipper.
 
 1.  [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
-    в папке drivers_uart краткий мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1
-  
+    мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1. избавляемся от ора моторов на высоких скоростях  
 2.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
 3.  [**Управление питанием системы, содержащей одноплатный компьютер Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
  
@@ -23,17 +22,17 @@
 
 5. [**подключение i2c датчиков к плате принтера**](i2c_mcu/readme.md) bme280, lm75a, ht21d и другие.
   
-5.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
+6.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
      монтаж щетки очистки сопла, модель, макрос.
   
-6. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
+7. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
    Вариант размещения оборудования внутри принтера. там же необходимые модели для этого.
  
-7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
+8. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
 
-  9. [**Расширение памяти на Orange Pi 3 LTS (и не только)**](https://telegra.ph/Edit-01-28-2) 
+  1. [**Расширение памяти на Orange Pi 3 LTS (и не только)**](https://telegra.ph/Edit-01-28-2) 
 
-   10. [**Перенос файлов Gcode с внутреннего носителя OrangePi на внешнюю SD карту**](https://telegra.ph/Perenos-fajlov-Gcode-s-vnutrennego-nositelya-OrangePi-na-vneshnyuyu-SD-kartu-02-02)
+   2.  [**Перенос файлов Gcode с внутреннего носителя OrangePi на внешнюю SD карту**](https://telegra.ph/Perenos-fajlov-Gcode-s-vnutrennego-nositelya-OrangePi-na-vneshnyuyu-SD-kartu-02-02)
    
 
  8.  [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
