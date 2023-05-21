@@ -34,6 +34,7 @@
   9. [**Расширение памяти на Orange Pi 3 LTS (и не только)**](https://telegra.ph/Edit-01-28-2) 
 
    10. [**Перенос файлов Gcode с внутреннего носителя OrangePi на внешнюю SD карту**](https://telegra.ph/Perenos-fajlov-Gcode-s-vnutrennego-nositelya-OrangePi-na-vneshnyuyu-SD-kartu-02-02)
+   
 
  8.  [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
 8.   [**timelapse matrix stail**](matrix_timelapse/readme.md)
@@ -72,6 +73,7 @@
 
 3. **глюки spi** при подключении акселерометра можно устранить по [этому мануалу](https://github.com/orangepi-xunlong/wiringOP) (обычно глюк в 24 не работающем пине исправляется установкой этого git и командой  sudo gpio mode 15 ALT2 
 
+4.[**Настройка Input Shaping в прошивке Marlin**](https://telegra.ph/Nastrojka-Input-Shaping-v-proshivke-Marlin-dlya-Flying-Bear-GHOST-6-02-15) 
 
  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
@@ -88,6 +90,7 @@
     в папке конфиг клиппера на flying bear ghost 6 
   подходит для стокового принтера без доработок, также есть закомментированные разделы небольших доработок. в комментариях файла config.cfg  есть какие то пояснения. читайте внимательно.
 *не нужно бездумно копировать всю папку, вам нужен только [конфиг](klipper_config/printer.cfg) остальные файлы просто для сравнения со своими когда вам это будет нужно.*
+ 3. [**Удаленное управление Klipper**](https://telegra.ph/Udalennoe-upravlenie-Klipperom-cherez-privychnye-interfejsy-04-24)
 
     *<h3>**Про экран, стоковый и не только**</h3>*
   
@@ -106,9 +109,10 @@
 
       4. **Клипперскрин** если у вас raspberry [тут](https://github.com/willngton/3DPrinterConfig/blob/main/mks_ts35/mks_ts35_guide_archived.md) или [тут](https://github.com/evgs/FBG6-Klipper/blob/main/Klipperscreen-RPI.md)
       5. [**Клипперскрин** на телефоне](https://telegra.ph/KlipperScreen-na-starom-android-telefone-12-16)
+      6. [**Еще одно руководство по установке клипперскрин на телефон**](https://telegra.ph/KLIPER-NA-ANDROID-TELEFON-03-01)
    
-      6. [**Проект "Чувырла"**](chuvir_screen/readme.md) крепление экрана и видеокамеры на место штатного экрана. 
-      7. [**4.3" экран с креплением камеры**](https://www.thingiverse.com/thing:5762517) от наших итальянских пользователей.
+      7. [**Проект "Чувырла"**](chuvir_screen/readme.md) крепление экрана и видеокамеры на место штатного экрана. 
+      8. [**4.3" экран с креплением камеры**](https://www.thingiverse.com/thing:5762517) от наших итальянских пользователей.
  
   1. [**хорошее wiki по клипперу**](https://klipper.wiki/ru/home/initial/peripheral) 
      когда мне лень писать и я пишу что посмотрите сами, лезьте на этот ресурс вероятнее найдете подробную инструкцию
@@ -130,11 +134,21 @@
    
 *<h2>**остальное**</h2>*
 
+1. [**Охлаждение стола для FBG6**]{https://3dtoday.ru/blogs/viknikvvk/oxlazdun-dlya-letayushhego-miski}
+   
+2. [**Усиление стола**](https://www.thingiverse.com/thing:5994260)
+
+3.[**крепление для пишки на магнитах**](https://www.thingiverse.com/thing:5686745) 
+
  *<h3>**про камеру**</h3>*
  1. [**ustreamer**](https://fb-waiters.bibirevo.net/klipper/ustreamer#zachem_i_pochemu) 
  Замена\Установка стримингового модуля. Так как mjpg-streamer умер на данный момент, а камеру хочется, читаем, ставим. если что то непонятно есть альтернативный источник [тут](https://fdmprint.ru/2022/11/10/klipper_ustreamer/)
 
-2. **timelapse здорового человека** 
+ 2.[**Logitech C270 с М12 широкоугольным объективом**](https://telegra.ph/Logitech-C270-s-M12-shirokougolnym-obektivom-03-19)
+
+ 3. [**RTSP IP камера и Klipper**](https://flyingbear.info/firmware/klipper/IPcam_to_Klipper)
+
+1. **timelapse здорового человека** 
 
    Многие пользуются функцией таймлапсов которые предоставляет телеграм бот но он ограничен в функионале и не позволяет делать красиво.
 если хотите получить действительно хорошие видео рекомендую [вот этот плагин](https://github.com/mainsail-crew/moonraker-timelapse) есть отвод головы на время сьемки кадра, переменный целевой fps и многое другое. посмотрите страничку авторов на гитхабе - не пожалеете. Или читайте инструкцию по установке [тут](https://fdmprint.ru/2022/11/24/klipper-timelapse-intervalnaja-semka-ustanovka-nastrojjka-moonraker-timelapse/)
