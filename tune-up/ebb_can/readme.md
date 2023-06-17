@@ -201,3 +201,6 @@ https://www.klipper3d.org/CANBUS.html?h=canbus
 https://github.com/bigtreetech/EBB/tree/master
 
 https://github.com/Arksine/CanBoot
+
+
+Мануал предоставлен: [**Ximikk**](https://t.me/Ximikk)
