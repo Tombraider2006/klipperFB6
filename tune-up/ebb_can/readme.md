@@ -110,7 +110,7 @@ Communication interface = USB to CAN bus bridge (USB (on PA11/PA12)
 CAN bus interface (CAN bus (on PB8/PB9))
 	(250000) CAN bus speed
  ```
- ![](make1.png)
+ ![](make1.jpg)
 ![](make2.png)
 После выбора конфигурации нажмите Q, чтобы выйти, и «Y», когда будет предложено сохранить конфигурацию.
 Введите команды:
