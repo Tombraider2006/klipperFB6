@@ -143,9 +143,11 @@
    
 2. [**Усиление стола**](https://www.thingiverse.com/thing:5994260)
 
-3. [**крепление для пишки на магнитах**](https://www.thingiverse.com/thing:5686745) 
+3. [**Усиление крепления стола спереди дополнительными валами**](https://www.thingiverse.com/thing:5994260)
 
-4.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
+4. [**крепление для пишки на магнитах**](https://www.thingiverse.com/thing:5686745) 
+
+5.  [**Автоперезапуск сервиса klipper после включения принтера**](https://mirv.top/2021/10/08/avtoperezapusk-servisa-klipper-posle-vklyucheniya-printera/)
 
  *<h3>**про камеру**</h3>*
  1. [**ustreamer**](https://fb-waiters.bibirevo.net/klipper/ustreamer#zachem_i_pochemu) 
