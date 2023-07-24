@@ -45,7 +45,7 @@ fi
 
 ```
 cd ~/printer_data/config/
-chmod +x ./Shaper_calibrate.sh
+chmod +x ./shaper_calibrate.sh
 ```
 
 В `printer.cfg` добавим следущий блок:
