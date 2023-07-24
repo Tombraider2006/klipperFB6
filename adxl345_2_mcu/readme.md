@@ -84,4 +84,6 @@ probe_points:    125, 100, 20  # an example
 
 Получение графиков возможно как и способом описанным в референсах клиппера но есть способ лучше и позволяющий получать их сразу в телеграм бот
 
-https://github.com/nlef/moonraker-telegram-bot/wiki/Ideas-for-macros
+[**График шейперов сразу в телеграм бот**](/macros/telegram_adxl.md) читаем - делаем,наслаждаемся.
+
+![](/macros/resonances.png)

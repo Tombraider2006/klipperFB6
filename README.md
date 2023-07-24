@@ -102,6 +102,9 @@
      конфиг файл бота для  мишки 6 можно скачать [тут](klipper_config/telegram.conf) кладем в папку конфигов не забываем вписать свои данные.
 
      ![](klipper_config/telegram_bot.jpg)
+7. [**График шейперов сразу в телеграм бот**](/macros/telegram_adxl.md) читаем - делаем,наслаждаемся.
+
+![](/macros/resonances.png)
 
 2. [**Плагин для слайсера CURA с настройками klipper**](https://github.com/jjgraphix/KlipperSettingsPlugin)
 ![](klipper_settings.jpg)
