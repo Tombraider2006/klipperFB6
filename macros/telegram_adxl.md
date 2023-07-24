@@ -51,7 +51,7 @@ chmod +x ./Shaper_calibrate.sh
 В `printer.cfg` добавим следущий блок:
 
 ```
-[gcode_macro measure_resonances]
+[gcode_macro telegram_shaper]
 gcode:
 	{% set HZ_PER_SEC = params.HZ_PER_SEC|default(1)|float %} #Parse parameters
 	{% set POSITION_X = params.POSITION_X|default(125)|int %}
