@@ -63,7 +63,7 @@ gcode:
 	TEST_RESONANCES AXIS=X HZ_PER_SEC={ HZ_PER_SEC } POINT={ POSITION_X },{ POSITION_Y },{POSITION_Z}
 	TEST_RESONANCES AXIS=Y HZ_PER_SEC={ HZ_PER_SEC } POINT={ POSITION_X },{ POSITION_Y },{POSITION_Z}
 	RUN_SHELL_COMMAND CMD=shaper_calibrate
-	RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/inputshaper/resonances_x.png', '/home/pi/printer_data/config/adxl_results/inputshaper/resonances_y.png'], message='Shaper results' "
+	RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/inputshaper/resonances_x.png', '/home/pi/printer_data/config/adxl_results/inputshaper/resonances_y.png'], message='Результат проверки шейперов' "
 
 
 
