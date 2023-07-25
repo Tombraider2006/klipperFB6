@@ -75,7 +75,7 @@ verbose: True
 ```
 Обратите внимание на строчки: 
 
-1. `RESPOND PREFIX=tg_send_image MSG="path=['home/pi/printer_data/config/adxl_results/inputshaper/resonances_x.png', 'home/pi/printer_data/config/adxl_results/inputshaper/resonances_y.png`
+1. `RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/inputshaper/resonances_x.png', '/home/pi/printer_data/config/adxl_results/inputshaper/resonances_y.png'], message='Shaper results' "`
 
  и 
 
