@@ -45,7 +45,7 @@ fi
 Иногда бывает проблема при копировании в windows и скрипт будет давать ошибки при попытке исполнения. тогда можно скачать его напрямую с гита к себе с помощью команды из консоли:
 
 ```
-wget -P ~/printer_data/config/ https://github.com/Tombraider2006/klipperFB6/blob/main/macros/shaper_calibrate.sh
+wget -P ~/printer_data/config/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/shaper_calibrate.sh
 ```
 Потом все равно не забудьте посмотреть и подправить путь до папки если пользователь не `pi`
 
