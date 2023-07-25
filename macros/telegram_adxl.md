@@ -45,6 +45,8 @@ fi
 ```
 wget -P ~/printer_data/config/ https://github.com/Tombraider2006/klipperFB6/blob/main/macros/shaper_calibrate.sh
 ```
+Потом все равно не забудьте посмотреть и подправить путь до папки если пользователь не `pi`
+
 через консоль сделаем файл исполняемым:
 
 ```
