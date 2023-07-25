@@ -59,6 +59,8 @@ chmod +x ./shaper_calibrate.sh
 В `printer.cfg` добавим следущий блок:
 
 ```
+[respond]
+
 [gcode_macro telegram_shaper]
 description: график шейперов в телеграм
 gcode:
