@@ -55,6 +55,8 @@
 5. [**Проект "Оливье"**](https://telegra.ph/Pechatayushchaya-golova-Olive-12-22) 
 
 6. [**Проект "ZOHAN"**](https://www.thingiverse.com/thing:5883228)
+   
+   6.1 [**Фидер для ZOHAN**](https://www.thingiverse.com/thing:5883228)  фидер "жучок" из сток шестерёнок остатков набора бмг и двух вентиляторов 4010
 
 7. [**bl-touch**](bltouch/readme.md) варианты крепления датчика на стоковую голову и на BIQU
    
