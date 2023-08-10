@@ -6,6 +6,10 @@
 
 {% include youtube.html id="bzNB46Av740" %}
 
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/bzNB46Av740/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=bzNB46Av740)
+
 *Сначала предлагаю посмотреть видео Дмитрия Соркина ["что не так с инпут шейпингом"](https://youtu.be/ZFPkfZEB-XU)*
 
 после того как вы получили график теста по осям нужно понять есть ли у вас проблемы, какие они и можно применять шейперы которые вам порекомендовал автокалибровщик.
