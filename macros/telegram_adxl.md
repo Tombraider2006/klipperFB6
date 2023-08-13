@@ -156,4 +156,38 @@ verbose: True
 |ACCEL_CHIP|"adxl345"|имя чипа акселерометра в конфиге|
 
 
-установка аналогична предыдущему макросу,
+
+
+<h2>Установка</h2>
+
+ аналогична предыдущему макросу:
+
+ копируем файл к себе в папку скриптов.
+
+```
+wget -P ~/printer_data/config/sripts/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/plot_graphs.sh
+wget -P ~/printer_data/config/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/vibr_calibrate.cfg
+
+```
+
+через консоль делаем исполняемым:
+
+```
+cd ~/printer_data/config/scripts/
+chmod +x ./plot_graphs.sh
+```
+в `printer.cfg` добавим блок:
+
+```
+[gcode_shell_command plot_graph]
+command: bash /home/pi/printer_data/config/scripts/plot_graphs.sh
+timeout: 500.0
+verbose: True
+```
+
+Не забываем исправить пользователя в строчке `PRINTER_DATA=home/pi/printer_data` если вас другое имя пользователя.
+
+Обратите внимание на строчки: 
+
+1. `RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/belts/`
+2. `RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/vibrations`  в файле vibr_calibrate.cfg
