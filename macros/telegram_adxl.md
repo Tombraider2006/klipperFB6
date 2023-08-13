@@ -179,6 +179,8 @@ chmod +x ./plot_graphs.sh
 в `printer.cfg` добавим блок:
 
 ```
+[include vibr_calibrate.cfg]
+
 [gcode_shell_command plot_graph]
 command: bash /home/pi/printer_data/config/scripts/plot_graphs.sh
 timeout: 500.0
@@ -190,4 +192,7 @@ verbose: True
 Обратите внимание на строчки: 
 
 1. `RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/belts/`
-2. `RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/vibrations`  в файле vibr_calibrate.cfg
+2. `RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/vibrations`  
+
+в файле **vibr_calibrate.cfg** который находится в основной папке. 
+
