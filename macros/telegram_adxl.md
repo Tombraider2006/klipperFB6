@@ -167,7 +167,7 @@ verbose: True
  копируем файл к себе в папку скриптов.
 
 ```
-wget -P ~/printer_data/config/sripts/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/plot_graphs.sh
+wget -P ~/printer_data/config/scripts/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/plot_graphs.sh
 wget -P ~/printer_data/config/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/vibr_calibrate.cfg
 
 ```
