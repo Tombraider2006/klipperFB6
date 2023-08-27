@@ -169,7 +169,7 @@ verbose: True
 ```
 wget -P ~/printer_data/config/scripts/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/plot_graphs.sh
 wget -P ~/printer_data/config/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/vibr_calibrate.cfg
-
+wget -P ~/printer_data/config/scripts/ https://raw.githubusercontent.com/Tombraider2006/klipperFB6/main/macros/graph_vibrations.py
 ```
 
 через консоль делаем исполняемым:
