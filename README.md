@@ -10,6 +10,8 @@
 
 *<h2>**Модификации**</h2>*
 
+   [**Nano4 v3.2 - GD32+CH340, "красная плата"**](GD32.md) - инструкции, марлин. правки под клиппер!
+
 1. [**Marlin 2.1**](marlin/readme.md) модифицированные прошивки марлин, чтоб было на что откатиться, если не понравился klipper.
 
 1.  [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
