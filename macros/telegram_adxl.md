@@ -177,6 +177,7 @@ wget -P ~/printer_data/config/scripts/ https://raw.githubusercontent.com/Tombrai
 ```
 cd ~/printer_data/config/scripts/
 chmod +x ./plot_graphs.sh
+chmod +x ./graph_vibrations.py
 ```
 в `printer.cfg` добавим блок:
 
