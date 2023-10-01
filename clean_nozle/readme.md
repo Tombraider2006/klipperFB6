@@ -7,6 +7,9 @@
 
 [держатель щетки под vulcano хотенд](dryer_vulcano.stl)
 
+![](shetka_V.jpg)
+
+
 монтируем:
 
 ![монтаж](assembl.jpg)
