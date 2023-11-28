@@ -62,7 +62,7 @@
 
 7. [**bl-touch**](bltouch/readme.md) варианты крепления датчика на стоковую голову и на BIQU
 
-8. [**FBG6-Condor**](https://github.com/Chiffa-C3/FBG6-Condor) Голова Кондор от "Chiffa"
+8. [**FBG6-Condor**](https://github.com/Chiffa-C3/FBG6-Condor) Проект головы "Кондор" с поддержкой датчика Klicky-Probe
 
 9. [**Заказать печатные детали из композита можно здесь**](https://vk.com/enot774rus)
 
