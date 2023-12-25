@@ -205,6 +205,29 @@ Ctrl + O, Enter, Ctrl + X
 Sudo reboot
 ```
 
+
+*пример кода*
+```
+[filament_switch_sensor switch_sensor]
+switch_pin: EBBCan:PB4
+pause_on_runout: False
+runout_gcode: # тут можно вписывать любой G-code или название макроса для выполнения после остановки по концевику
+  PAUSE # [pause_resume] is required in printer.cfg
+  M117 Filament switch runout
+insert_gcode: # можно вписывать любой G-code или название макроса для выполнения после восстановления подачи прутка
+  M117 Filament switch inserted
+
+[filament_motion_sensor motion_sensor]
+switch_pin: ^EBBCan:PB3
+detection_length: 3 # 2.88 стандартное значение  | Расстояние сработки по оптическому датчику, меньше 2.88 нельзя вводить. Повысить значение, если есть ложные сработки.
+extruder: extruder
+pause_on_runout: False
+runout_gcode: # можно вписывать любой G-code или название макроса для выполнения после остановки по оптическому датчику
+  PAUSE # [pause_resume] is required in printer.cfg
+  M117 Filament encoder runout
+insert_gcode: # можно вписывать любой G-code или название макроса для выполнения после восстановления подачи прутка
+  M117 Filament encoder inserted
+  ```
 Источники:
 
 https://www.klipper3d.org/CANBUS.html?h=canbus
