@@ -1,4 +1,4 @@
-<h3 align="right"><a href="https://pay.cloudtips.ru/p/f84bf0b2" target="_blank">ваше "спасибо" автору</a></h3>
+
 
 
 [**Мануал для тех кто только получил принтер**](/tune-up/newby.md)
@@ -14,23 +14,23 @@
 
 1. [**Marlin 2.1**](marlin/readme.md) модифицированные прошивки марлин, чтоб было на что откатиться, если не понравился klipper.
 
-1.  [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
+2.  [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
     мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1. избавляемся от ора моторов на высоких скоростях  
-2.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
-3.  [**Управление питанием системы, содержащей одноплатный компьютер Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
+3.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
+4.  [**Управление питанием системы, содержащей одноплатный компьютер Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
  
-4.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
+5.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
      Подключение датчика температуры BME280
 
-5. [**подключение i2c датчиков к плате принтера**](i2c_mcu/readme.md) bme280, lm75a, ht21d и другие.
+6. [**подключение i2c датчиков к плате принтера**](i2c_mcu/readme.md) bme280, lm75a, ht21d и другие.
   
-6.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
+7.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
      монтаж щетки очистки сопла, модель, макрос.
   
-7. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
+8. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
    Вариант размещения оборудования внутри принтера. там же необходимые модели для этого.
  
-8. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
+9. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
 
   1. [**Расширение памяти на Orange Pi 3 LTS (и не только)**](https://telegra.ph/Edit-01-28-2) 
 
@@ -184,5 +184,3 @@
 
 `Ставьте звездочку проекту, так будет проще находить владельцам принтера нужную информацию`
 
-[Если вы считаете мой проект хорошим вы можете помочь денежкой тут.деньги поступят на карту дочери](https://pay.cloudtips.ru/p/f84bf0b2)
-![куаркод](qrCode.png) 
