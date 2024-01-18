@@ -164,7 +164,7 @@
  1. [**ustreamer**](https://fb-waiters.bibirevo.net/klipper/ustreamer#zachem_i_pochemu) 
  Замена\Установка стримингового модуля. Так как mjpg-streamer умер на данный момент, а камеру хочется, читаем, ставим. если что то непонятно есть альтернативный источник [тут](https://fdmprint.ru/2022/11/10/klipper_ustreamer/)
 
- 2.[**Logitech C270 с М12 широкоугольным объективом**](https://telegra.ph/Logitech-C270-s-M12-shirokougolnym-obektivom-03-19)
+ 2.[**Logitech C270 с М12 широкоугольным объективом**](https://telegra.ph/Logitech-C270-s-M12-shirokougolnym-obektivom-03-19) инструкция валидна , [**более правильная модель корпуса**](https://www.thingiverse.com/thing:6440452)
 
  3. [**RTSP IP камера и Klipper**](https://flyingbear.info/firmware/klipper/IPcam_to_Klipper)
 
