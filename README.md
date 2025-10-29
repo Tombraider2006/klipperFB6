@@ -76,7 +76,7 @@
     способ подключения акселерометра к плате принтера.
 
 1. [**ADXL 2 orange pi**](https://fdmprint.ru/2022/11/02/podkljuchenie-adxl345-akselerometr-i-orange-pi-3-lts/)
-   Подключение акселерометра к OrangePi 3LTS 
+   Подключение акселерометра к OrangePi 3LTS [добавка если не получилось с alt2](adxl345_2_mcu/SPI-CS-FIX.md)
 
 2. [**raspbery pi и ADXL345**](https://telegra.ph/Druzhim-raspbery-pi-s-ADXL345-04-25)Подключение акселерометра к Raspberry PI 
 
